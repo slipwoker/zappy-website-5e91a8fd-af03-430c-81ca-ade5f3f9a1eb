@@ -1,0 +1,53 @@
+# מתקל — Generative Engine Optimization Map
+
+> A חינוך ולמידה דיגיטלית business.
+
+---
+
+## Pages
+
+### Home
+https://-5e91a8fd.zappy5.app
+
+### Subjects
+https://-5e91a8fd.zappy5.app/subjects
+
+### Solution Format
+https://-5e91a8fd.zappy5.app/solution
+
+### Contact
+https://-5e91a8fd.zappy5.app/contact
+
+## Legal & Policy
+
+### Privacy Policy
+https://-5e91a8fd.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-5e91a8fd.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-5e91a8fd.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About מתקל
+מתקל is a business in the חינוך ולמידה דיגיטלית industry.
+
+## Target Audience
+תלמידים וסטודנטים
+
+## Industry
+חינוך ולמידה דיגיטלית
+
+---
+
+# Additional Resources
+
+- **Sitemap**: https://-5e91a8fd.zappy5.app/sitemap.xml
+- **Robots.txt**: https://-5e91a8fd.zappy5.app/robots.txt
