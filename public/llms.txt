@@ -1,6 +1,4 @@
-# מתקל — Generative Engine Optimization Map
-
-> A חינוך ולמידה דיגיטלית business.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -48,15 +46,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About מתקל
-מתקל is a business in the חינוך ולמידה דיגיטלית industry.
-
-## Target Audience
-תלמידים וסטודנטים
-
-## Industry
-חינוך ולמידה דיגיטלית
-
+## About Business
 ---
 
 # Additional Resources

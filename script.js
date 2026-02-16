@@ -496,6 +496,8 @@ window.onload = function() {
 })();
 
 ;
+
+;
 /* ==ZAPPY E-COMMERCE JS START== */
 // E-commerce functionality
 (function() {
@@ -609,7 +611,7 @@ window.onload = function() {
   if (!websiteId) return;
   
   // Translations
-  const t = {"products":"מוצרים","ourProducts":"המוצרים שלנו","featuredProducts":"מוצרים מומלצים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","featuredCategories":"קנו לפי קטגוריה","all":"הכל","featured":"מומלצים","new":"חדשים","sale":"מבצעים","loadingProducts":"טוען מוצרים...","cart":"עגלת קניות","yourCart":"עגלת הקניות שלך","emptyCart":"העגלה ריקה","total":"סה\"כ","proceedToCheckout":"המשך לתשלום","checkout":"תשלום","customerInfo":"פרטי לקוח","fullName":"שם מלא","email":"אימייל","phone":"טלפון","shippingAddress":"כתובת למשלוח","street":"רחוב ומספר","apartment":"דירה, קומה, כניסה","city":"עיר","zip":"מיקוד","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","shippingMethod":"שיטת משלוח","loadingShipping":"טוען שיטות משלוח...","payment":"תשלום","loadingPayment":"טוען אפשרויות תשלום...","orderSummary":"סיכום הזמנה","subtotal":"סכום ביניים","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","shipping":"משלוח","discount":"הנחה","totalToPay":"סה\"כ לתשלום","placeOrder":"בצע הזמנה","login":"התחברות","customerLogin":"התחברות לקוחות","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","emailAddress":"כתובת אימייל","sendCode":"שלח קוד","enterCode":"הזן את הקוד שנשלח לאימייל שלך","verificationCode":"קוד אימות","verify":"אמת","returnPolicy":"מדיניות החזרות","addToCart":"הוסף לעגלה","startingAt":"החל מ","addedToCart":"המוצר נוסף לעגלה!","remove":"הסר","noProducts":"אין מוצרים להצגה כרגע","errorLoading":"שגיאה בטעינה","days":"ימים","currency":"₪","free":"חינם","freeAbove":"משלוח חינם מעל","noShippingMethods":"אין אפשרויות משלוח זמינות","viewAllResults":"הצג את כל התוצאות","searchProducts":"חיפוש מוצרים","productDetails":"פרטי המוצר","viewDetails":"לפרטים נוספים","inStock":"במלאי","outOfStock":"אזל מהמלאי","sku":"מק\"ט","category":"קטגוריה","relatedProducts":"מוצרים דומים","productNotFound":"המוצר לא נמצא","backToProducts":"חזרה למוצרים","home":"בית","quantity":"כמות","couponCode":"קוד קופון","enterCouponCode":"הזן קוד קופון","applyCoupon":"החל","removeCoupon":"הסר","couponApplied":"הקופון הוחל בהצלחה!","invalidCoupon":"קוד קופון לא תקין","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","alreadyHaveAccount":"כבר יש לך חשבון?","loginHere":"התחבר כאן","loggedInAs":"מחובר כ:","logout":"התנתק","haveCouponCode":"יש לי קוד קופון","agreeToTerms":"אני מסכים/ה ל","termsAndConditions":"תנאי השימוש","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","nameRequired":"נא להזין שם מלא","emailRequired":"נא להזין כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","phoneRequired":"נא להזין מספר טלפון","shippingRequired":"נא לבחור שיטת משלוח","streetRequired":"נא להזין רחוב ומספר","cityRequired":"נא להזין עיר","cartEmpty":"העגלה ריקה","paymentNotConfigured":"תשלום מקוון לא מוגדר","orderSuccess":"ההזמנה התקבלה!","thankYouOrder":"תודה על ההזמנה","orderNumber":"מספר הזמנה","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","continueShopping":"להמשך קניות","orderDetails":"פרטי ההזמנה","loadingOrder":"טוען פרטי הזמנה...","orderNotFound":"לא נמצאה הזמנה","orderItems":"פריטים בהזמנה","paidAmount":"סכום ששולם","myAccount":"החשבון שלי","accountWelcome":"ברוך הבא","yourOrders":"ההזמנות שלך","noOrders":"אין עדיין הזמנות","orderDate":"תאריך","orderStatus":"סטטוס","orderTotal":"סה\"כ","viewOrder":"צפה בהזמנה","statusPending":"ממתין לתשלום","statusPaid":"שולם","statusProcessing":"בטיפול","statusShipped":"נשלח","statusDelivered":"נמסר","statusCancelled":"בוטל","notLoggedIn":"לא מחובר","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","personalDetails":"פרטים אישיים","editProfile":"עריכת פרופיל","name":"שם","saveChanges":"שמור שינויים","cancel":"ביטול","addresses":"כתובות","addAddress":"הוסף כתובת","editAddress":"ערוך כתובת","deleteAddress":"מחק כתובת","setAsDefault":"הגדר כברירת מחדל","defaultAddress":"כתובת ברירת מחדל","addressLabel":"שם הכתובת","work":"עבודה","other":"אחר","noAddresses":"אין כתובות שמורות","confirmDelete":"האם אתה בטוח שברצונך למחוק?","profileUpdated":"הפרופיל עודכן בהצלחה","addressSaved":"הכתובת נשמרה בהצלחה","addressDeleted":"הכתובת נמחקה","saving":"שומר...","selectVariant":"בחר אפשרות","variantUnavailable":"לא זמין","color":"צבע","size":"מידה","material":"חומר","style":"סגנון","weight":"משקל","capacity":"קיבולת","length":"אורך","inquiryAbout":"פנייה בנושא","sendInquiry":"שלח פנייה","callNow":"התקשר עכשיו","specifications":"מפרט טכני","businessPhone":"[business_phone]","businessEmail":"[business_email]"};
+  const t = {"products":"מוצרים","ourProducts":"המוצרים שלנו","featuredProducts":"מוצרים מומלצים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","featuredCategories":"קנו לפי קטגוריה","all":"הכל","featured":"מומלצים","new":"חדשים","sale":"מבצעים","loadingProducts":"טוען מוצרים...","cart":"עגלת קניות","yourCart":"עגלת הקניות שלך","emptyCart":"העגלה ריקה","total":"סה\"כ","proceedToCheckout":"המשך לתשלום","checkout":"תשלום","customerInfo":"פרטי לקוח","fullName":"שם מלא","email":"אימייל","phone":"טלפון","shippingAddress":"כתובת למשלוח","street":"רחוב ומספר","apartment":"דירה, קומה, כניסה","city":"עיר","zip":"מיקוד","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","shippingMethod":"שיטת משלוח","loadingShipping":"טוען שיטות משלוח...","payment":"תשלום","loadingPayment":"טוען אפשרויות תשלום...","orderSummary":"סיכום הזמנה","subtotal":"סכום ביניים","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","shipping":"משלוח","discount":"הנחה","totalToPay":"סה\"כ לתשלום","placeOrder":"בצע הזמנה","login":"התחברות","customerLogin":"התחברות לקוחות","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","emailAddress":"כתובת אימייל","sendCode":"שלח קוד","enterCode":"הזן את הקוד שנשלח לאימייל שלך","verificationCode":"קוד אימות","verify":"אמת","returnPolicy":"מדיניות החזרות","addToCart":"הוסף לעגלה","startingAt":"החל מ","addedToCart":"המוצר נוסף לעגלה!","remove":"הסר","noProducts":"אין מוצרים להצגה כרגע","errorLoading":"שגיאה בטעינה","days":"ימים","currency":"₪","free":"חינם","freeAbove":"משלוח חינם מעל","noShippingMethods":"אין אפשרויות משלוח זמינות","viewAllResults":"הצג את כל התוצאות","searchProducts":"חיפוש מוצרים","productDetails":"פרטי המוצר","viewDetails":"לפרטים נוספים","inStock":"במלאי","outOfStock":"אזל מהמלאי","sku":"מק\"ט","category":"קטגוריה","relatedProducts":"מוצרים דומים","productNotFound":"המוצר לא נמצא","backToProducts":"חזרה למוצרים","home":"בית","quantity":"כמות","unitLabels":{"piece":"יח'","kg":"ק\"ג","gram":"גרם","liter":"ליטר","ml":"מ\"ל"},"perUnit":"/","couponCode":"קוד קופון","enterCouponCode":"הזן קוד קופון","applyCoupon":"החל","removeCoupon":"הסר","couponApplied":"הקופון הוחל בהצלחה!","invalidCoupon":"קוד קופון לא תקין","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","alreadyHaveAccount":"כבר יש לך חשבון?","loginHere":"התחבר כאן","loggedInAs":"מחובר כ:","logout":"התנתק","haveCouponCode":"יש לי קוד קופון","agreeToTerms":"אני מסכים/ה ל","termsAndConditions":"תנאי השימוש","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","nameRequired":"נא להזין שם מלא","emailRequired":"נא להזין כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","phoneRequired":"נא להזין מספר טלפון","shippingRequired":"נא לבחור שיטת משלוח","streetRequired":"נא להזין רחוב ומספר","cityRequired":"נא להזין עיר","cartEmpty":"העגלה ריקה","paymentNotConfigured":"תשלום מקוון לא מוגדר","orderSuccess":"ההזמנה התקבלה!","thankYouOrder":"תודה על ההזמנה","orderNumber":"מספר הזמנה","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","continueShopping":"להמשך קניות","orderDetails":"פרטי ההזמנה","loadingOrder":"טוען פרטי הזמנה...","orderNotFound":"לא נמצאה הזמנה","orderItems":"פריטים בהזמנה","paidAmount":"סכום ששולם","myAccount":"החשבון שלי","accountWelcome":"ברוך הבא","yourOrders":"ההזמנות שלך","noOrders":"אין עדיין הזמנות","orderDate":"תאריך","orderStatus":"סטטוס","orderTotal":"סה\"כ","viewOrder":"צפה בהזמנה","statusPending":"ממתין לתשלום","statusPaid":"שולם","statusProcessing":"בטיפול","statusShipped":"נשלח","statusDelivered":"נמסר","statusCancelled":"בוטל","notLoggedIn":"לא מחובר","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","personalDetails":"פרטים אישיים","editProfile":"עריכת פרופיל","name":"שם","saveChanges":"שמור שינויים","cancel":"ביטול","addresses":"כתובות","addAddress":"הוסף כתובת","editAddress":"ערוך כתובת","deleteAddress":"מחק כתובת","setAsDefault":"הגדר כברירת מחדל","defaultAddress":"כתובת ברירת מחדל","addressLabel":"שם הכתובת","work":"עבודה","other":"אחר","noAddresses":"אין כתובות שמורות","confirmDelete":"האם אתה בטוח שברצונך למחוק?","profileUpdated":"הפרופיל עודכן בהצלחה","addressSaved":"הכתובת נשמרה בהצלחה","addressDeleted":"הכתובת נמחקה","saving":"שומר...","selectVariant":"בחר אפשרות","variantUnavailable":"לא זמין","color":"צבע","size":"מידה","material":"חומר","style":"סגנון","weight":"משקל","capacity":"קיבולת","length":"אורך","inquiryAbout":"פנייה בנושא","sendInquiry":"שלח פנייה","callNow":"התקשר עכשיו","specifications":"מפרט טכני","businessPhone":"[business_phone]","businessEmail":"[business_email]"};
   
   // Helper to get localized e-commerce UI text
   // Tries zappyI18n first for multilingual support, falls back to static t object
@@ -694,10 +696,77 @@ function stripHtmlToText(html) {
   }
   
   function updateCartCount() {
-    const count = cart.reduce((sum, item) => sum + item.quantity, 0);
+    // Count distinct cart entries (not sum of quantities) so unit-based items count as 1 each
+    const count = cart.length;
     // Update all cart count badges (our injected one and any existing ones)
     const countElements = document.querySelectorAll('.cart-count');
     countElements.forEach(function(el) { el.textContent = count; });
+  }
+  
+  // Get the display label for a quantity unit
+  function getUnitLabel(item) {
+    var unit = item.quantityUnit || item.quantity_unit || 'piece';
+    if (unit === 'piece') return '';
+    if (unit === 'custom') return item.customUnitLabel || item.custom_unit_label || '';
+    var labels = t.unitLabels || {};
+    return labels[unit] || unit;
+  }
+  
+  // Format quantity with unit label for display
+  function formatQtyDisplay(item) {
+    var label = getUnitLabel(item);
+    return label ? item.quantity + ' ' + label : item.quantity;
+  }
+  
+  // Compute "price per reference unit" HTML for product cards/detail page
+  // For gram → per 100g, for ml → per 100ml, for kg/liter → per kg/L
+  // For piece-based products with piece_unit_type/value → compute from piece weight
+  function getPricePerUnitHtml(p) {
+    if (!p.show_price_per_unit) return '';
+    var unit = p.quantity_unit || 'piece';
+    
+    // Check if product uses variant-driven pricing
+    var vCount = parseInt(p.variant_count || 0, 10);
+    var vPriceCount = parseInt(p.variant_price_count || 0, 10);
+    var vMinPrice = parseFloat(p.variant_min_price);
+    var vMaxPrice = parseFloat(p.variant_max_price);
+    var hasVarRange = vCount > 1 && vPriceCount > 1 && Number.isFinite(vMinPrice) && Number.isFinite(vMaxPrice) && vMinPrice !== vMaxPrice;
+    
+    // Use variant min price when the card shows "Starting at" pricing, otherwise use sale/base price
+    var price = hasVarRange
+      ? vMinPrice
+      : (parseFloat(p.sale_price) && parseFloat(p.sale_price) < parseFloat(p.price) ? parseFloat(p.sale_price) : parseFloat(p.price));
+    if (!price) return '';
+    
+    var refAmount, refLabel, pricePerRef;
+    
+    if (unit === 'piece') {
+      // Piece-based product: use piece_unit_type and piece_unit_value
+      var pieceUnit = p.piece_unit_type;
+      var pieceValue = parseFloat(p.piece_unit_value);
+      if (!pieceUnit || !pieceValue) return '';
+      // Normalize to a reference amount based on the piece unit type
+      if (pieceUnit === 'gram') { refAmount = 100; refLabel = '100' + ((t.unitLabels && t.unitLabels.gram) || 'g'); }
+      else if (pieceUnit === 'ml') { refAmount = 100; refLabel = '100' + ((t.unitLabels && t.unitLabels.ml) || 'ml'); }
+      else if (pieceUnit === 'kg') { refAmount = 1; refLabel = (t.unitLabels && t.unitLabels.kg) || 'kg'; }
+      else if (pieceUnit === 'liter') { refAmount = 1; refLabel = (t.unitLabels && t.unitLabels.liter) || 'L'; }
+      else return '';
+      // price is for 1 piece which contains pieceValue of pieceUnit
+      pricePerRef = (price / pieceValue) * refAmount;
+    } else {
+      var step = parseFloat(p.quantity_step) || 1;
+      if (!step) return '';
+      if (unit === 'gram') { refAmount = 100; refLabel = '100' + ((t.unitLabels && t.unitLabels.gram) || 'g'); }
+      else if (unit === 'ml') { refAmount = 100; refLabel = '100' + ((t.unitLabels && t.unitLabels.ml) || 'ml'); }
+      else if (unit === 'kg') { refAmount = 1; refLabel = (t.unitLabels && t.unitLabels.kg) || 'kg'; }
+      else if (unit === 'liter') { refAmount = 1; refLabel = (t.unitLabels && t.unitLabels.liter) || 'L'; }
+      else if (unit === 'custom') { refAmount = 1; refLabel = p.custom_unit_label || ''; }
+      else return '';
+      // price is per step amount of unit
+      pricePerRef = (price / step) * refAmount;
+    }
+    
+    return '<div class="price-per-unit-info">' + t.currency + pricePerRef.toFixed(2) + ' / ' + refLabel + '</div>';
   }
   
   // Get effective price (sale_price if available and less than price, otherwise price)
@@ -706,6 +775,15 @@ function stripHtmlToText(html) {
       return parseFloat(item.sale_price);
     }
     return parseFloat(item.price);
+  }
+  
+  // Get cart line total: price is per step, so total = price * (quantity / step)
+  function getCartLineTotal(item) {
+    var price = getItemPrice(item);
+    var step = parseFloat(item.quantityStep) || 1;
+    var unit = item.quantityUnit || item.quantity_unit || 'piece';
+    if (unit === 'piece') return price * item.quantity;
+    return price * (item.quantity / step);
   }
   
   function addToCart(product) {
@@ -720,10 +798,16 @@ function stripHtmlToText(html) {
       return existingCartId === cartItemId;
     });
     
+    const step = parseFloat(product.quantityStep || product.quantity_step) || 1;
+    const qty = product.quantity || step;
+    
     if (existing) {
-      existing.quantity++;
+      existing.quantity += qty;
+      // Round to avoid floating point issues
+      var decimals = (step.toString().split('.')[1] || '').length;
+      existing.quantity = parseFloat(existing.quantity.toFixed(decimals));
     } else {
-      cart.push({ ...product, quantity: 1 });
+      cart.push({ ...product, quantity: qty, quantityUnit: product.quantityUnit || product.quantity_unit || 'piece', quantityStep: step, customUnitLabel: product.customUnitLabel || product.custom_unit_label || null });
     }
     saveCart();
     openCartDrawer(); // Open cart drawer instead of alert
@@ -948,7 +1032,8 @@ function stripHtmlToText(html) {
       var localizedViewDetails = getEcomText('viewDetails', t.viewDetails);
       
       // Only include price div if showPrice is true
-      var priceHtml = showPrice ? '<div class="price">' + displayPrice + '</div>' : '';
+      var pricePerUnitHtml = getPricePerUnitHtml(p);
+      var priceHtml = showPrice ? '<div class="price">' + displayPrice + '</div>' + pricePerUnitHtml : '';
       
       if (productLayout === 'compact') {
         // Compact: image, name, price only
@@ -1015,18 +1100,18 @@ function stripHtmlToText(html) {
     
     let total = 0;
     drawerItems.innerHTML = cart.map(item => {
-      const itemPrice = getItemPrice(item);
-      total += itemPrice * item.quantity;
+      const lineTotal = getCartLineTotal(item);
+      total += lineTotal;
       const variantInfo = item.variantName ? '<div class="cart-item-variant">' + item.variantName + '</div>' : '';
       return '<div class="cart-item" data-item-id="' + item.id + (item.selectedVariant ? '-' + item.selectedVariant.id : '') + '">' +
         '<img src="' + (resolveProductImageUrl(item.images?.[0]) || 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2270%22 height=%2270%22 viewBox=%220 0 70 70%22%3E%3Crect fill=%22%23f3f4f6%22 width=%2270%22 height=%2270%22/%3E%3Cpath fill=%22%239ca3af%22 d=%22M28 25h14v14H28z%22/%3E%3C/svg%3E') + '" alt="' + item.name + '">' +
         '<div class="cart-item-info">' +
           '<div class="cart-item-name">' + item.name + '</div>' +
           variantInfo +
-          '<div class="cart-item-price">' + t.currency + (itemPrice * item.quantity).toFixed(2) + '</div>' +
+          '<div class="cart-item-price">' + t.currency + lineTotal.toFixed(2) + '</div>' +
           '<div class="cart-item-qty">' +
             '<button onclick="window.zappyUpdateQty(\'' + item.id + (item.selectedVariant ? '-' + item.selectedVariant.id : '') + '\', -1)">−</button>' +
-            '<span>' + item.quantity + '</span>' +
+            '<span>' + formatQtyDisplay(item) + '</span>' +
             '<button onclick="window.zappyUpdateQty(\'' + item.id + (item.selectedVariant ? '-' + item.selectedVariant.id : '') + '\', 1)">+</button>' +
           '</div>' +
         '</div>' +
@@ -1088,7 +1173,11 @@ function stripHtmlToText(html) {
       return itemCompositeId === compositeId;
     });
     if (item) {
-      item.quantity += delta;
+      const step = parseFloat(item.quantityStep) || 1;
+      item.quantity += delta * step;
+      // Round to avoid floating point issues
+      var decimals = (step.toString().split('.')[1] || '').length;
+      item.quantity = parseFloat(item.quantity.toFixed(decimals));
       if (item.quantity <= 0) {
         cart = cart.filter(i => {
           const variantId = i.selectedVariant ? i.selectedVariant.id : null;
@@ -1115,13 +1204,14 @@ function stripHtmlToText(html) {
     
     let total = 0;
     itemsEl.innerHTML = cart.map(item => {
+      const lineTotal = getCartLineTotal(item);
+      total += lineTotal;
       const itemPrice = getItemPrice(item);
-      total += itemPrice * item.quantity;
       const variantInfo = item.variantName ? '<br><span style="font-size:12px;color:#6b7280;">' + item.variantName + '</span>' : '';
       const compositeId = item.selectedVariant ? item.id + '-' + item.selectedVariant.id : item.id;
       return '<div class="cart-item">' +
         '<img src="' + (resolveProductImageUrl(item.images?.[0]) || '') + '" alt="' + item.name + '">' +
-        '<div><strong>' + item.name + '</strong>' + variantInfo + '<br>' + t.currency + itemPrice.toFixed(2) + ' x ' + item.quantity + '</div>' +
+        '<div><strong>' + item.name + '</strong>' + variantInfo + '<br>' + t.currency + itemPrice.toFixed(2) + ' x ' + formatQtyDisplay(item) + '</div>' +
         '<button onclick="window.zappyRemoveFromCart(\'' + compositeId + '\')">' + t.remove + '</button>' +
       '</div>';
     }).join('');
@@ -1838,7 +1928,7 @@ function stripHtmlToText(html) {
   
   // Get cart subtotal
   function getCartSubtotal() {
-    return cart.reduce((sum, item) => sum + (getItemPrice(item) * item.quantity), 0);
+    return cart.reduce((sum, item) => sum + getCartLineTotal(item), 0);
   }
   
   // Calculate shipping cost
@@ -1907,11 +1997,11 @@ function stripHtmlToText(html) {
     // Render order items
     if (orderItemsEl) {
       orderItemsEl.innerHTML = cart.map(item => {
-        const itemPrice = getItemPrice(item);
+        const lineTotal = getCartLineTotal(item);
         const variantLabel = item.variantName ? ' (' + item.variantName + ')' : '';
         return '<div class="order-item">' +
-          '<span>' + item.name + variantLabel + ' x ' + item.quantity + '</span>' +
-          '<span>' + t.currency + (itemPrice * item.quantity).toFixed(2) + '</span>' +
+          '<span>' + item.name + variantLabel + ' x ' + formatQtyDisplay(item) + '</span>' +
+          '<span>' + t.currency + lineTotal.toFixed(2) + '</span>' +
         '</div>';
       }).join('');
     }
@@ -2784,14 +2874,11 @@ function stripHtmlToText(html) {
           // Render items
           if (orderData.cartItems && orderData.cartItems.length > 0) {
             orderItemsList.innerHTML = orderData.cartItems.map(function(item) {
-              // Use sale_price if available and less than regular price
-              var itemPrice = (item.sale_price && parseFloat(item.sale_price) < parseFloat(item.price)) 
-                ? parseFloat(item.sale_price) 
-                : parseFloat(item.price);
+              var lineTotal = getCartLineTotal(item);
               var variantLabel = item.variantName ? ' (' + item.variantName + ')' : '';
               return '<div class="order-success-item">' +
-                '<span>' + item.name + variantLabel + ' x ' + item.quantity + '</span>' +
-                '<span>' + t.currency + (itemPrice * item.quantity).toFixed(2) + '</span>' +
+                '<span>' + item.name + variantLabel + ' x ' + formatQtyDisplay(item) + '</span>' +
+                '<span>' + t.currency + lineTotal.toFixed(2) + '</span>' +
                 '</div>';
             }).join('');
           }
@@ -3492,7 +3579,12 @@ function stripHtmlToText(html) {
               (orderItems.length > 0 ? '<div class="order-items-summary">' +
                 orderItems.slice(0, 3).map(function(item) {
                   const itemName = item.name || item.productName || 'Item';
-                  return '<span class="order-item-name">' + itemName + (item.quantity > 1 ? ' x' + item.quantity : '') + '</span>';
+                  var qtyLabel = item.quantity > 1 || (item.quantityUnit && item.quantityUnit !== 'piece') ? ' x' + item.quantity : '';
+                  if (qtyLabel && item.quantityUnit && item.quantityUnit !== 'piece') {
+                    var uLabel = item.customUnitLabel || (t.unitLabels && t.unitLabels[item.quantityUnit]) || item.quantityUnit;
+                    qtyLabel += ' ' + uLabel;
+                  }
+                  return '<span class="order-item-name">' + itemName + qtyLabel + '</span>';
                 }).join(', ') +
                 (orderItems.length > 3 ? '...' : '') +
               '</div>' : '') +
@@ -3891,7 +3983,7 @@ async function loadFeaturedProducts() {
   // Ensure store settings are loaded first (for productLayout)
   await fetchAdditionalJsSettings();
   
-  const t = {"products":"מוצרים","ourProducts":"המוצרים שלנו","featuredProducts":"מוצרים מומלצים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","featuredCategories":"קנו לפי קטגוריה","all":"הכל","featured":"מומלצים","new":"חדשים","sale":"מבצעים","loadingProducts":"טוען מוצרים...","cart":"עגלת קניות","yourCart":"עגלת הקניות שלך","emptyCart":"העגלה ריקה","total":"סה\"כ","proceedToCheckout":"המשך לתשלום","checkout":"תשלום","customerInfo":"פרטי לקוח","fullName":"שם מלא","email":"אימייל","phone":"טלפון","shippingAddress":"כתובת למשלוח","street":"רחוב ומספר","apartment":"דירה, קומה, כניסה","city":"עיר","zip":"מיקוד","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","shippingMethod":"שיטת משלוח","loadingShipping":"טוען שיטות משלוח...","payment":"תשלום","loadingPayment":"טוען אפשרויות תשלום...","orderSummary":"סיכום הזמנה","subtotal":"סכום ביניים","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","shipping":"משלוח","discount":"הנחה","totalToPay":"סה\"כ לתשלום","placeOrder":"בצע הזמנה","login":"התחברות","customerLogin":"התחברות לקוחות","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","emailAddress":"כתובת אימייל","sendCode":"שלח קוד","enterCode":"הזן את הקוד שנשלח לאימייל שלך","verificationCode":"קוד אימות","verify":"אמת","returnPolicy":"מדיניות החזרות","addToCart":"הוסף לעגלה","startingAt":"החל מ","addedToCart":"המוצר נוסף לעגלה!","remove":"הסר","noProducts":"אין מוצרים להצגה כרגע","errorLoading":"שגיאה בטעינה","days":"ימים","currency":"₪","free":"חינם","freeAbove":"משלוח חינם מעל","noShippingMethods":"אין אפשרויות משלוח זמינות","viewAllResults":"הצג את כל התוצאות","searchProducts":"חיפוש מוצרים","productDetails":"פרטי המוצר","viewDetails":"לפרטים נוספים","inStock":"במלאי","outOfStock":"אזל מהמלאי","sku":"מק\"ט","category":"קטגוריה","relatedProducts":"מוצרים דומים","productNotFound":"המוצר לא נמצא","backToProducts":"חזרה למוצרים","home":"בית","quantity":"כמות","couponCode":"קוד קופון","enterCouponCode":"הזן קוד קופון","applyCoupon":"החל","removeCoupon":"הסר","couponApplied":"הקופון הוחל בהצלחה!","invalidCoupon":"קוד קופון לא תקין","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","alreadyHaveAccount":"כבר יש לך חשבון?","loginHere":"התחבר כאן","loggedInAs":"מחובר כ:","logout":"התנתק","haveCouponCode":"יש לי קוד קופון","agreeToTerms":"אני מסכים/ה ל","termsAndConditions":"תנאי השימוש","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","nameRequired":"נא להזין שם מלא","emailRequired":"נא להזין כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","phoneRequired":"נא להזין מספר טלפון","shippingRequired":"נא לבחור שיטת משלוח","streetRequired":"נא להזין רחוב ומספר","cityRequired":"נא להזין עיר","cartEmpty":"העגלה ריקה","paymentNotConfigured":"תשלום מקוון לא מוגדר","orderSuccess":"ההזמנה התקבלה!","thankYouOrder":"תודה על ההזמנה","orderNumber":"מספר הזמנה","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","continueShopping":"להמשך קניות","orderDetails":"פרטי ההזמנה","loadingOrder":"טוען פרטי הזמנה...","orderNotFound":"לא נמצאה הזמנה","orderItems":"פריטים בהזמנה","paidAmount":"סכום ששולם","myAccount":"החשבון שלי","accountWelcome":"ברוך הבא","yourOrders":"ההזמנות שלך","noOrders":"אין עדיין הזמנות","orderDate":"תאריך","orderStatus":"סטטוס","orderTotal":"סה\"כ","viewOrder":"צפה בהזמנה","statusPending":"ממתין לתשלום","statusPaid":"שולם","statusProcessing":"בטיפול","statusShipped":"נשלח","statusDelivered":"נמסר","statusCancelled":"בוטל","notLoggedIn":"לא מחובר","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","personalDetails":"פרטים אישיים","editProfile":"עריכת פרופיל","name":"שם","saveChanges":"שמור שינויים","cancel":"ביטול","addresses":"כתובות","addAddress":"הוסף כתובת","editAddress":"ערוך כתובת","deleteAddress":"מחק כתובת","setAsDefault":"הגדר כברירת מחדל","defaultAddress":"כתובת ברירת מחדל","addressLabel":"שם הכתובת","work":"עבודה","other":"אחר","noAddresses":"אין כתובות שמורות","confirmDelete":"האם אתה בטוח שברצונך למחוק?","profileUpdated":"הפרופיל עודכן בהצלחה","addressSaved":"הכתובת נשמרה בהצלחה","addressDeleted":"הכתובת נמחקה","saving":"שומר...","selectVariant":"בחר אפשרות","variantUnavailable":"לא זמין","color":"צבע","size":"מידה","material":"חומר","style":"סגנון","weight":"משקל","capacity":"קיבולת","length":"אורך","inquiryAbout":"פנייה בנושא","sendInquiry":"שלח פנייה","callNow":"התקשר עכשיו","specifications":"מפרט טכני","businessPhone":"[business_phone]","businessEmail":"[business_email]"};
+  const t = {"products":"מוצרים","ourProducts":"המוצרים שלנו","featuredProducts":"מוצרים מומלצים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","featuredCategories":"קנו לפי קטגוריה","all":"הכל","featured":"מומלצים","new":"חדשים","sale":"מבצעים","loadingProducts":"טוען מוצרים...","cart":"עגלת קניות","yourCart":"עגלת הקניות שלך","emptyCart":"העגלה ריקה","total":"סה\"כ","proceedToCheckout":"המשך לתשלום","checkout":"תשלום","customerInfo":"פרטי לקוח","fullName":"שם מלא","email":"אימייל","phone":"טלפון","shippingAddress":"כתובת למשלוח","street":"רחוב ומספר","apartment":"דירה, קומה, כניסה","city":"עיר","zip":"מיקוד","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","shippingMethod":"שיטת משלוח","loadingShipping":"טוען שיטות משלוח...","payment":"תשלום","loadingPayment":"טוען אפשרויות תשלום...","orderSummary":"סיכום הזמנה","subtotal":"סכום ביניים","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","shipping":"משלוח","discount":"הנחה","totalToPay":"סה\"כ לתשלום","placeOrder":"בצע הזמנה","login":"התחברות","customerLogin":"התחברות לקוחות","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","emailAddress":"כתובת אימייל","sendCode":"שלח קוד","enterCode":"הזן את הקוד שנשלח לאימייל שלך","verificationCode":"קוד אימות","verify":"אמת","returnPolicy":"מדיניות החזרות","addToCart":"הוסף לעגלה","startingAt":"החל מ","addedToCart":"המוצר נוסף לעגלה!","remove":"הסר","noProducts":"אין מוצרים להצגה כרגע","errorLoading":"שגיאה בטעינה","days":"ימים","currency":"₪","free":"חינם","freeAbove":"משלוח חינם מעל","noShippingMethods":"אין אפשרויות משלוח זמינות","viewAllResults":"הצג את כל התוצאות","searchProducts":"חיפוש מוצרים","productDetails":"פרטי המוצר","viewDetails":"לפרטים נוספים","inStock":"במלאי","outOfStock":"אזל מהמלאי","sku":"מק\"ט","category":"קטגוריה","relatedProducts":"מוצרים דומים","productNotFound":"המוצר לא נמצא","backToProducts":"חזרה למוצרים","home":"בית","quantity":"כמות","unitLabels":{"piece":"יח'","kg":"ק\"ג","gram":"גרם","liter":"ליטר","ml":"מ\"ל"},"perUnit":"/","couponCode":"קוד קופון","enterCouponCode":"הזן קוד קופון","applyCoupon":"החל","removeCoupon":"הסר","couponApplied":"הקופון הוחל בהצלחה!","invalidCoupon":"קוד קופון לא תקין","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","alreadyHaveAccount":"כבר יש לך חשבון?","loginHere":"התחבר כאן","loggedInAs":"מחובר כ:","logout":"התנתק","haveCouponCode":"יש לי קוד קופון","agreeToTerms":"אני מסכים/ה ל","termsAndConditions":"תנאי השימוש","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","nameRequired":"נא להזין שם מלא","emailRequired":"נא להזין כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","phoneRequired":"נא להזין מספר טלפון","shippingRequired":"נא לבחור שיטת משלוח","streetRequired":"נא להזין רחוב ומספר","cityRequired":"נא להזין עיר","cartEmpty":"העגלה ריקה","paymentNotConfigured":"תשלום מקוון לא מוגדר","orderSuccess":"ההזמנה התקבלה!","thankYouOrder":"תודה על ההזמנה","orderNumber":"מספר הזמנה","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","continueShopping":"להמשך קניות","orderDetails":"פרטי ההזמנה","loadingOrder":"טוען פרטי הזמנה...","orderNotFound":"לא נמצאה הזמנה","orderItems":"פריטים בהזמנה","paidAmount":"סכום ששולם","myAccount":"החשבון שלי","accountWelcome":"ברוך הבא","yourOrders":"ההזמנות שלך","noOrders":"אין עדיין הזמנות","orderDate":"תאריך","orderStatus":"סטטוס","orderTotal":"סה\"כ","viewOrder":"צפה בהזמנה","statusPending":"ממתין לתשלום","statusPaid":"שולם","statusProcessing":"בטיפול","statusShipped":"נשלח","statusDelivered":"נמסר","statusCancelled":"בוטל","notLoggedIn":"לא מחובר","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","personalDetails":"פרטים אישיים","editProfile":"עריכת פרופיל","name":"שם","saveChanges":"שמור שינויים","cancel":"ביטול","addresses":"כתובות","addAddress":"הוסף כתובת","editAddress":"ערוך כתובת","deleteAddress":"מחק כתובת","setAsDefault":"הגדר כברירת מחדל","defaultAddress":"כתובת ברירת מחדל","addressLabel":"שם הכתובת","work":"עבודה","other":"אחר","noAddresses":"אין כתובות שמורות","confirmDelete":"האם אתה בטוח שברצונך למחוק?","profileUpdated":"הפרופיל עודכן בהצלחה","addressSaved":"הכתובת נשמרה בהצלחה","addressDeleted":"הכתובת נמחקה","saving":"שומר...","selectVariant":"בחר אפשרות","variantUnavailable":"לא זמין","color":"צבע","size":"מידה","material":"חומר","style":"סגנון","weight":"משקל","capacity":"קיבולת","length":"אורך","inquiryAbout":"פנייה בנושא","sendInquiry":"שלח פנייה","callNow":"התקשר עכשיו","specifications":"מפרט טכני","businessPhone":"[business_phone]","businessEmail":"[business_email]"};
   
   try {
     // Only fetch featured products - no fallback, with language support
@@ -4044,7 +4136,8 @@ function renderProductGrid(grid, products, t, isFeaturedSection) {
     var layout = additionalJsProductLayout || 'standard';
     
     // Only include price div if showPrice is true
-    var priceHtml = showPrice ? '<div class="price">' + displayPrice + '</div>' : '';
+    var pricePerUnitHtml = getPricePerUnitHtml(p);
+    var priceHtml = showPrice ? '<div class="price">' + displayPrice + '</div>' + pricePerUnitHtml : '';
     
     if (layout === 'compact') {
       // Compact: image, name, price only
@@ -4228,7 +4321,7 @@ async function loadProductDetailPage() {
   const websiteId = window.ZAPPY_WEBSITE_ID;
   if (!websiteId) return;
   
-  const t = {"products":"מוצרים","ourProducts":"המוצרים שלנו","featuredProducts":"מוצרים מומלצים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","featuredCategories":"קנו לפי קטגוריה","all":"הכל","featured":"מומלצים","new":"חדשים","sale":"מבצעים","loadingProducts":"טוען מוצרים...","cart":"עגלת קניות","yourCart":"עגלת הקניות שלך","emptyCart":"העגלה ריקה","total":"סה\"כ","proceedToCheckout":"המשך לתשלום","checkout":"תשלום","customerInfo":"פרטי לקוח","fullName":"שם מלא","email":"אימייל","phone":"טלפון","shippingAddress":"כתובת למשלוח","street":"רחוב ומספר","apartment":"דירה, קומה, כניסה","city":"עיר","zip":"מיקוד","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","shippingMethod":"שיטת משלוח","loadingShipping":"טוען שיטות משלוח...","payment":"תשלום","loadingPayment":"טוען אפשרויות תשלום...","orderSummary":"סיכום הזמנה","subtotal":"סכום ביניים","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","shipping":"משלוח","discount":"הנחה","totalToPay":"סה\"כ לתשלום","placeOrder":"בצע הזמנה","login":"התחברות","customerLogin":"התחברות לקוחות","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","emailAddress":"כתובת אימייל","sendCode":"שלח קוד","enterCode":"הזן את הקוד שנשלח לאימייל שלך","verificationCode":"קוד אימות","verify":"אמת","returnPolicy":"מדיניות החזרות","addToCart":"הוסף לעגלה","startingAt":"החל מ","addedToCart":"המוצר נוסף לעגלה!","remove":"הסר","noProducts":"אין מוצרים להצגה כרגע","errorLoading":"שגיאה בטעינה","days":"ימים","currency":"₪","free":"חינם","freeAbove":"משלוח חינם מעל","noShippingMethods":"אין אפשרויות משלוח זמינות","viewAllResults":"הצג את כל התוצאות","searchProducts":"חיפוש מוצרים","productDetails":"פרטי המוצר","viewDetails":"לפרטים נוספים","inStock":"במלאי","outOfStock":"אזל מהמלאי","sku":"מק\"ט","category":"קטגוריה","relatedProducts":"מוצרים דומים","productNotFound":"המוצר לא נמצא","backToProducts":"חזרה למוצרים","home":"בית","quantity":"כמות","couponCode":"קוד קופון","enterCouponCode":"הזן קוד קופון","applyCoupon":"החל","removeCoupon":"הסר","couponApplied":"הקופון הוחל בהצלחה!","invalidCoupon":"קוד קופון לא תקין","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","alreadyHaveAccount":"כבר יש לך חשבון?","loginHere":"התחבר כאן","loggedInAs":"מחובר כ:","logout":"התנתק","haveCouponCode":"יש לי קוד קופון","agreeToTerms":"אני מסכים/ה ל","termsAndConditions":"תנאי השימוש","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","nameRequired":"נא להזין שם מלא","emailRequired":"נא להזין כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","phoneRequired":"נא להזין מספר טלפון","shippingRequired":"נא לבחור שיטת משלוח","streetRequired":"נא להזין רחוב ומספר","cityRequired":"נא להזין עיר","cartEmpty":"העגלה ריקה","paymentNotConfigured":"תשלום מקוון לא מוגדר","orderSuccess":"ההזמנה התקבלה!","thankYouOrder":"תודה על ההזמנה","orderNumber":"מספר הזמנה","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","continueShopping":"להמשך קניות","orderDetails":"פרטי ההזמנה","loadingOrder":"טוען פרטי הזמנה...","orderNotFound":"לא נמצאה הזמנה","orderItems":"פריטים בהזמנה","paidAmount":"סכום ששולם","myAccount":"החשבון שלי","accountWelcome":"ברוך הבא","yourOrders":"ההזמנות שלך","noOrders":"אין עדיין הזמנות","orderDate":"תאריך","orderStatus":"סטטוס","orderTotal":"סה\"כ","viewOrder":"צפה בהזמנה","statusPending":"ממתין לתשלום","statusPaid":"שולם","statusProcessing":"בטיפול","statusShipped":"נשלח","statusDelivered":"נמסר","statusCancelled":"בוטל","notLoggedIn":"לא מחובר","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","personalDetails":"פרטים אישיים","editProfile":"עריכת פרופיל","name":"שם","saveChanges":"שמור שינויים","cancel":"ביטול","addresses":"כתובות","addAddress":"הוסף כתובת","editAddress":"ערוך כתובת","deleteAddress":"מחק כתובת","setAsDefault":"הגדר כברירת מחדל","defaultAddress":"כתובת ברירת מחדל","addressLabel":"שם הכתובת","work":"עבודה","other":"אחר","noAddresses":"אין כתובות שמורות","confirmDelete":"האם אתה בטוח שברצונך למחוק?","profileUpdated":"הפרופיל עודכן בהצלחה","addressSaved":"הכתובת נשמרה בהצלחה","addressDeleted":"הכתובת נמחקה","saving":"שומר...","selectVariant":"בחר אפשרות","variantUnavailable":"לא זמין","color":"צבע","size":"מידה","material":"חומר","style":"סגנון","weight":"משקל","capacity":"קיבולת","length":"אורך","inquiryAbout":"פנייה בנושא","sendInquiry":"שלח פנייה","callNow":"התקשר עכשיו","specifications":"מפרט טכני","businessPhone":"[business_phone]","businessEmail":"[business_email]"};
+  const t = {"products":"מוצרים","ourProducts":"המוצרים שלנו","featuredProducts":"מוצרים מומלצים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","featuredCategories":"קנו לפי קטגוריה","all":"הכל","featured":"מומלצים","new":"חדשים","sale":"מבצעים","loadingProducts":"טוען מוצרים...","cart":"עגלת קניות","yourCart":"עגלת הקניות שלך","emptyCart":"העגלה ריקה","total":"סה\"כ","proceedToCheckout":"המשך לתשלום","checkout":"תשלום","customerInfo":"פרטי לקוח","fullName":"שם מלא","email":"אימייל","phone":"טלפון","shippingAddress":"כתובת למשלוח","street":"רחוב ומספר","apartment":"דירה, קומה, כניסה","city":"עיר","zip":"מיקוד","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","shippingMethod":"שיטת משלוח","loadingShipping":"טוען שיטות משלוח...","payment":"תשלום","loadingPayment":"טוען אפשרויות תשלום...","orderSummary":"סיכום הזמנה","subtotal":"סכום ביניים","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","shipping":"משלוח","discount":"הנחה","totalToPay":"סה\"כ לתשלום","placeOrder":"בצע הזמנה","login":"התחברות","customerLogin":"התחברות לקוחות","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","emailAddress":"כתובת אימייל","sendCode":"שלח קוד","enterCode":"הזן את הקוד שנשלח לאימייל שלך","verificationCode":"קוד אימות","verify":"אמת","returnPolicy":"מדיניות החזרות","addToCart":"הוסף לעגלה","startingAt":"החל מ","addedToCart":"המוצר נוסף לעגלה!","remove":"הסר","noProducts":"אין מוצרים להצגה כרגע","errorLoading":"שגיאה בטעינה","days":"ימים","currency":"₪","free":"חינם","freeAbove":"משלוח חינם מעל","noShippingMethods":"אין אפשרויות משלוח זמינות","viewAllResults":"הצג את כל התוצאות","searchProducts":"חיפוש מוצרים","productDetails":"פרטי המוצר","viewDetails":"לפרטים נוספים","inStock":"במלאי","outOfStock":"אזל מהמלאי","sku":"מק\"ט","category":"קטגוריה","relatedProducts":"מוצרים דומים","productNotFound":"המוצר לא נמצא","backToProducts":"חזרה למוצרים","home":"בית","quantity":"כמות","unitLabels":{"piece":"יח'","kg":"ק\"ג","gram":"גרם","liter":"ליטר","ml":"מ\"ל"},"perUnit":"/","couponCode":"קוד קופון","enterCouponCode":"הזן קוד קופון","applyCoupon":"החל","removeCoupon":"הסר","couponApplied":"הקופון הוחל בהצלחה!","invalidCoupon":"קוד קופון לא תקין","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","alreadyHaveAccount":"כבר יש לך חשבון?","loginHere":"התחבר כאן","loggedInAs":"מחובר כ:","logout":"התנתק","haveCouponCode":"יש לי קוד קופון","agreeToTerms":"אני מסכים/ה ל","termsAndConditions":"תנאי השימוש","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","nameRequired":"נא להזין שם מלא","emailRequired":"נא להזין כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","phoneRequired":"נא להזין מספר טלפון","shippingRequired":"נא לבחור שיטת משלוח","streetRequired":"נא להזין רחוב ומספר","cityRequired":"נא להזין עיר","cartEmpty":"העגלה ריקה","paymentNotConfigured":"תשלום מקוון לא מוגדר","orderSuccess":"ההזמנה התקבלה!","thankYouOrder":"תודה על ההזמנה","orderNumber":"מספר הזמנה","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","continueShopping":"להמשך קניות","orderDetails":"פרטי ההזמנה","loadingOrder":"טוען פרטי הזמנה...","orderNotFound":"לא נמצאה הזמנה","orderItems":"פריטים בהזמנה","paidAmount":"סכום ששולם","myAccount":"החשבון שלי","accountWelcome":"ברוך הבא","yourOrders":"ההזמנות שלך","noOrders":"אין עדיין הזמנות","orderDate":"תאריך","orderStatus":"סטטוס","orderTotal":"סה\"כ","viewOrder":"צפה בהזמנה","statusPending":"ממתין לתשלום","statusPaid":"שולם","statusProcessing":"בטיפול","statusShipped":"נשלח","statusDelivered":"נמסר","statusCancelled":"בוטל","notLoggedIn":"לא מחובר","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","personalDetails":"פרטים אישיים","editProfile":"עריכת פרופיל","name":"שם","saveChanges":"שמור שינויים","cancel":"ביטול","addresses":"כתובות","addAddress":"הוסף כתובת","editAddress":"ערוך כתובת","deleteAddress":"מחק כתובת","setAsDefault":"הגדר כברירת מחדל","defaultAddress":"כתובת ברירת מחדל","addressLabel":"שם הכתובת","work":"עבודה","other":"אחר","noAddresses":"אין כתובות שמורות","confirmDelete":"האם אתה בטוח שברצונך למחוק?","profileUpdated":"הפרופיל עודכן בהצלחה","addressSaved":"הכתובת נשמרה בהצלחה","addressDeleted":"הכתובת נמחקה","saving":"שומר...","selectVariant":"בחר אפשרות","variantUnavailable":"לא זמין","color":"צבע","size":"מידה","material":"חומר","style":"סגנון","weight":"משקל","capacity":"קיבולת","length":"אורך","inquiryAbout":"פנייה בנושא","sendInquiry":"שלח פנייה","callNow":"התקשר עכשיו","specifications":"מפרט טכני","businessPhone":"[business_phone]","businessEmail":"[business_email]"};
   
   // Get slug from URL - check both pathname and query parameter (preview mode)
   let pagePath = window.location.pathname;
@@ -4281,7 +4374,7 @@ async function loadCategoryPage() {
   const websiteId = window.ZAPPY_WEBSITE_ID;
   if (!websiteId) return;
   
-  const t = {"products":"מוצרים","ourProducts":"המוצרים שלנו","featuredProducts":"מוצרים מומלצים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","featuredCategories":"קנו לפי קטגוריה","all":"הכל","featured":"מומלצים","new":"חדשים","sale":"מבצעים","loadingProducts":"טוען מוצרים...","cart":"עגלת קניות","yourCart":"עגלת הקניות שלך","emptyCart":"העגלה ריקה","total":"סה\"כ","proceedToCheckout":"המשך לתשלום","checkout":"תשלום","customerInfo":"פרטי לקוח","fullName":"שם מלא","email":"אימייל","phone":"טלפון","shippingAddress":"כתובת למשלוח","street":"רחוב ומספר","apartment":"דירה, קומה, כניסה","city":"עיר","zip":"מיקוד","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","shippingMethod":"שיטת משלוח","loadingShipping":"טוען שיטות משלוח...","payment":"תשלום","loadingPayment":"טוען אפשרויות תשלום...","orderSummary":"סיכום הזמנה","subtotal":"סכום ביניים","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","shipping":"משלוח","discount":"הנחה","totalToPay":"סה\"כ לתשלום","placeOrder":"בצע הזמנה","login":"התחברות","customerLogin":"התחברות לקוחות","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","emailAddress":"כתובת אימייל","sendCode":"שלח קוד","enterCode":"הזן את הקוד שנשלח לאימייל שלך","verificationCode":"קוד אימות","verify":"אמת","returnPolicy":"מדיניות החזרות","addToCart":"הוסף לעגלה","startingAt":"החל מ","addedToCart":"המוצר נוסף לעגלה!","remove":"הסר","noProducts":"אין מוצרים להצגה כרגע","errorLoading":"שגיאה בטעינה","days":"ימים","currency":"₪","free":"חינם","freeAbove":"משלוח חינם מעל","noShippingMethods":"אין אפשרויות משלוח זמינות","viewAllResults":"הצג את כל התוצאות","searchProducts":"חיפוש מוצרים","productDetails":"פרטי המוצר","viewDetails":"לפרטים נוספים","inStock":"במלאי","outOfStock":"אזל מהמלאי","sku":"מק\"ט","category":"קטגוריה","relatedProducts":"מוצרים דומים","productNotFound":"המוצר לא נמצא","backToProducts":"חזרה למוצרים","home":"בית","quantity":"כמות","couponCode":"קוד קופון","enterCouponCode":"הזן קוד קופון","applyCoupon":"החל","removeCoupon":"הסר","couponApplied":"הקופון הוחל בהצלחה!","invalidCoupon":"קוד קופון לא תקין","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","alreadyHaveAccount":"כבר יש לך חשבון?","loginHere":"התחבר כאן","loggedInAs":"מחובר כ:","logout":"התנתק","haveCouponCode":"יש לי קוד קופון","agreeToTerms":"אני מסכים/ה ל","termsAndConditions":"תנאי השימוש","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","nameRequired":"נא להזין שם מלא","emailRequired":"נא להזין כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","phoneRequired":"נא להזין מספר טלפון","shippingRequired":"נא לבחור שיטת משלוח","streetRequired":"נא להזין רחוב ומספר","cityRequired":"נא להזין עיר","cartEmpty":"העגלה ריקה","paymentNotConfigured":"תשלום מקוון לא מוגדר","orderSuccess":"ההזמנה התקבלה!","thankYouOrder":"תודה על ההזמנה","orderNumber":"מספר הזמנה","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","continueShopping":"להמשך קניות","orderDetails":"פרטי ההזמנה","loadingOrder":"טוען פרטי הזמנה...","orderNotFound":"לא נמצאה הזמנה","orderItems":"פריטים בהזמנה","paidAmount":"סכום ששולם","myAccount":"החשבון שלי","accountWelcome":"ברוך הבא","yourOrders":"ההזמנות שלך","noOrders":"אין עדיין הזמנות","orderDate":"תאריך","orderStatus":"סטטוס","orderTotal":"סה\"כ","viewOrder":"צפה בהזמנה","statusPending":"ממתין לתשלום","statusPaid":"שולם","statusProcessing":"בטיפול","statusShipped":"נשלח","statusDelivered":"נמסר","statusCancelled":"בוטל","notLoggedIn":"לא מחובר","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","personalDetails":"פרטים אישיים","editProfile":"עריכת פרופיל","name":"שם","saveChanges":"שמור שינויים","cancel":"ביטול","addresses":"כתובות","addAddress":"הוסף כתובת","editAddress":"ערוך כתובת","deleteAddress":"מחק כתובת","setAsDefault":"הגדר כברירת מחדל","defaultAddress":"כתובת ברירת מחדל","addressLabel":"שם הכתובת","work":"עבודה","other":"אחר","noAddresses":"אין כתובות שמורות","confirmDelete":"האם אתה בטוח שברצונך למחוק?","profileUpdated":"הפרופיל עודכן בהצלחה","addressSaved":"הכתובת נשמרה בהצלחה","addressDeleted":"הכתובת נמחקה","saving":"שומר...","selectVariant":"בחר אפשרות","variantUnavailable":"לא זמין","color":"צבע","size":"מידה","material":"חומר","style":"סגנון","weight":"משקל","capacity":"קיבולת","length":"אורך","inquiryAbout":"פנייה בנושא","sendInquiry":"שלח פנייה","callNow":"התקשר עכשיו","specifications":"מפרט טכני","businessPhone":"[business_phone]","businessEmail":"[business_email]"};
+  const t = {"products":"מוצרים","ourProducts":"המוצרים שלנו","featuredProducts":"מוצרים מומלצים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","featuredCategories":"קנו לפי קטגוריה","all":"הכל","featured":"מומלצים","new":"חדשים","sale":"מבצעים","loadingProducts":"טוען מוצרים...","cart":"עגלת קניות","yourCart":"עגלת הקניות שלך","emptyCart":"העגלה ריקה","total":"סה\"כ","proceedToCheckout":"המשך לתשלום","checkout":"תשלום","customerInfo":"פרטי לקוח","fullName":"שם מלא","email":"אימייל","phone":"טלפון","shippingAddress":"כתובת למשלוח","street":"רחוב ומספר","apartment":"דירה, קומה, כניסה","city":"עיר","zip":"מיקוד","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","shippingMethod":"שיטת משלוח","loadingShipping":"טוען שיטות משלוח...","payment":"תשלום","loadingPayment":"טוען אפשרויות תשלום...","orderSummary":"סיכום הזמנה","subtotal":"סכום ביניים","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","shipping":"משלוח","discount":"הנחה","totalToPay":"סה\"כ לתשלום","placeOrder":"בצע הזמנה","login":"התחברות","customerLogin":"התחברות לקוחות","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","emailAddress":"כתובת אימייל","sendCode":"שלח קוד","enterCode":"הזן את הקוד שנשלח לאימייל שלך","verificationCode":"קוד אימות","verify":"אמת","returnPolicy":"מדיניות החזרות","addToCart":"הוסף לעגלה","startingAt":"החל מ","addedToCart":"המוצר נוסף לעגלה!","remove":"הסר","noProducts":"אין מוצרים להצגה כרגע","errorLoading":"שגיאה בטעינה","days":"ימים","currency":"₪","free":"חינם","freeAbove":"משלוח חינם מעל","noShippingMethods":"אין אפשרויות משלוח זמינות","viewAllResults":"הצג את כל התוצאות","searchProducts":"חיפוש מוצרים","productDetails":"פרטי המוצר","viewDetails":"לפרטים נוספים","inStock":"במלאי","outOfStock":"אזל מהמלאי","sku":"מק\"ט","category":"קטגוריה","relatedProducts":"מוצרים דומים","productNotFound":"המוצר לא נמצא","backToProducts":"חזרה למוצרים","home":"בית","quantity":"כמות","unitLabels":{"piece":"יח'","kg":"ק\"ג","gram":"גרם","liter":"ליטר","ml":"מ\"ל"},"perUnit":"/","couponCode":"קוד קופון","enterCouponCode":"הזן קוד קופון","applyCoupon":"החל","removeCoupon":"הסר","couponApplied":"הקופון הוחל בהצלחה!","invalidCoupon":"קוד קופון לא תקין","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","alreadyHaveAccount":"כבר יש לך חשבון?","loginHere":"התחבר כאן","loggedInAs":"מחובר כ:","logout":"התנתק","haveCouponCode":"יש לי קוד קופון","agreeToTerms":"אני מסכים/ה ל","termsAndConditions":"תנאי השימוש","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","nameRequired":"נא להזין שם מלא","emailRequired":"נא להזין כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","phoneRequired":"נא להזין מספר טלפון","shippingRequired":"נא לבחור שיטת משלוח","streetRequired":"נא להזין רחוב ומספר","cityRequired":"נא להזין עיר","cartEmpty":"העגלה ריקה","paymentNotConfigured":"תשלום מקוון לא מוגדר","orderSuccess":"ההזמנה התקבלה!","thankYouOrder":"תודה על ההזמנה","orderNumber":"מספר הזמנה","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","continueShopping":"להמשך קניות","orderDetails":"פרטי ההזמנה","loadingOrder":"טוען פרטי הזמנה...","orderNotFound":"לא נמצאה הזמנה","orderItems":"פריטים בהזמנה","paidAmount":"סכום ששולם","myAccount":"החשבון שלי","accountWelcome":"ברוך הבא","yourOrders":"ההזמנות שלך","noOrders":"אין עדיין הזמנות","orderDate":"תאריך","orderStatus":"סטטוס","orderTotal":"סה\"כ","viewOrder":"צפה בהזמנה","statusPending":"ממתין לתשלום","statusPaid":"שולם","statusProcessing":"בטיפול","statusShipped":"נשלח","statusDelivered":"נמסר","statusCancelled":"בוטל","notLoggedIn":"לא מחובר","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","personalDetails":"פרטים אישיים","editProfile":"עריכת פרופיל","name":"שם","saveChanges":"שמור שינויים","cancel":"ביטול","addresses":"כתובות","addAddress":"הוסף כתובת","editAddress":"ערוך כתובת","deleteAddress":"מחק כתובת","setAsDefault":"הגדר כברירת מחדל","defaultAddress":"כתובת ברירת מחדל","addressLabel":"שם הכתובת","work":"עבודה","other":"אחר","noAddresses":"אין כתובות שמורות","confirmDelete":"האם אתה בטוח שברצונך למחוק?","profileUpdated":"הפרופיל עודכן בהצלחה","addressSaved":"הכתובת נשמרה בהצלחה","addressDeleted":"הכתובת נמחקה","saving":"שומר...","selectVariant":"בחר אפשרות","variantUnavailable":"לא זמין","color":"צבע","size":"מידה","material":"חומר","style":"סגנון","weight":"משקל","capacity":"קיבולת","length":"אורך","inquiryAbout":"פנייה בנושא","sendInquiry":"שלח פנייה","callNow":"התקשר עכשיו","specifications":"מפרט טכני","businessPhone":"[business_phone]","businessEmail":"[business_email]"};
   
   // Get slug from URL - check both pathname and query parameter (preview mode)
   let pagePath = window.location.pathname;
@@ -4586,8 +4679,50 @@ function renderProductDetail(container, product, t) {
             : (hasSalePrice 
               ? t.currency + product.sale_price + ' <span class="original-price">' + t.currency + product.price + '</span>'
               : t.currency + product.price)
-          }
+          }${(() => {
+            const unit = product.quantity_unit || 'piece';
+            if (unit !== 'piece') {
+              const step = parseFloat(product.quantity_step) || 1;
+              const unitLabel = product.custom_unit_label || (t.unitLabels && t.unitLabels[unit]) || unit;
+              const stepPrefix = step !== 1 ? step + ' ' : '';
+              return ' <span class="price-per-unit">' + t.perUnit + ' ' + stepPrefix + unitLabel + '</span>';
+            }
+            return '';
+          })()}
         </div>
+        ${(() => {
+          if (!product.show_price_per_unit) return '';
+          const unit = product.quantity_unit || 'piece';
+          // Use variant min price when the detail page shows "Starting at" pricing
+          const effectivePrice = hasVariantPriceRange
+            ? minVariantPrice
+            : (product.sale_price && parseFloat(product.sale_price) < parseFloat(product.price) ? parseFloat(product.sale_price) : parseFloat(product.price));
+          if (!effectivePrice) return '';
+          let refAmount, refLabel, pricePerRef;
+          if (unit === 'piece') {
+            // Piece-based: use piece_unit_type and piece_unit_value
+            const pieceUnit = product.piece_unit_type;
+            const pieceValue = parseFloat(product.piece_unit_value);
+            if (!pieceUnit || !pieceValue) return '';
+            if (pieceUnit === 'gram') { refAmount = 100; refLabel = '100' + ((t.unitLabels && t.unitLabels.gram) || 'g'); }
+            else if (pieceUnit === 'ml') { refAmount = 100; refLabel = '100' + ((t.unitLabels && t.unitLabels.ml) || 'ml'); }
+            else if (pieceUnit === 'kg') { refAmount = 1; refLabel = (t.unitLabels && t.unitLabels.kg) || 'kg'; }
+            else if (pieceUnit === 'liter') { refAmount = 1; refLabel = (t.unitLabels && t.unitLabels.liter) || 'L'; }
+            else return '';
+            pricePerRef = (effectivePrice / pieceValue) * refAmount;
+          } else {
+            const step = parseFloat(product.quantity_step) || 1;
+            if (!step) return '';
+            if (unit === 'gram') { refAmount = 100; refLabel = '100' + ((t.unitLabels && t.unitLabels.gram) || 'g'); }
+            else if (unit === 'ml') { refAmount = 100; refLabel = '100' + ((t.unitLabels && t.unitLabels.ml) || 'ml'); }
+            else if (unit === 'kg') { refAmount = 1; refLabel = (t.unitLabels && t.unitLabels.kg) || 'kg'; }
+            else if (unit === 'liter') { refAmount = 1; refLabel = (t.unitLabels && t.unitLabels.liter) || 'L'; }
+            else if (unit === 'custom') { refAmount = 1; refLabel = product.custom_unit_label || ''; }
+            else return '';
+            pricePerRef = (effectivePrice / step) * refAmount;
+          }
+          return '<div class="price-per-unit-info" id="product-price-per-unit">' + t.currency + pricePerRef.toFixed(2) + ' / ' + refLabel + '</div>';
+        })()}
         ` : ''}
         ${product.sku ? '<div class="product-sku" id="product-sku-display">' + t.sku + ': ' + product.sku + '</div>' : ''}
         <div class="product-stock ${baseInStock ? 'in-stock' : 'out-of-stock'}" id="product-stock-display">
@@ -4597,16 +4732,20 @@ function renderProductDetail(container, product, t) {
           }
         </div>
         ${variantSelectorHtml}
-        ${isCatalogMode ? '' : `
-        <div class="product-quantity">
-          <label>${t.quantity}:</label>
-          <div class="quantity-selector">
-            <button type="button" onclick="adjustQuantity(-1)">−</button>
-            <input type="number" id="product-quantity" value="1" min="1" max="99">
-            <button type="button" onclick="adjustQuantity(1)">+</button>
-          </div>
-        </div>
-        `}
+        ${(() => {
+          if (isCatalogMode) return '';
+          const qStep = parseFloat(product.quantity_step) || 1;
+          const qUnit = product.quantity_unit || 'piece';
+          const unitLabel = qUnit !== 'piece' ? (' (' + (product.custom_unit_label || (t.unitLabels && t.unitLabels[qUnit]) || qUnit) + ')') : '';
+          return '<div class="product-quantity">' +
+            '<label>' + t.quantity + unitLabel + ':</label>' +
+            '<div class="quantity-selector">' +
+              '<button type="button" onclick="adjustQuantity(-1)">−</button>' +
+              '<input type="number" id="product-quantity" value="' + qStep + '" min="' + qStep + '" max="9999" step="' + qStep + '" data-unit="' + qUnit + '" data-step="' + qStep + '">' +
+              '<button type="button" onclick="adjustQuantity(1)">+</button>' +
+            '</div>' +
+          '</div>';
+        })()}
         <div class="product-actions ${isCatalogMode ? 'catalog-mode' : ''}">
           ${isCatalogMode ? `
             <a href="mailto:${encodeURIComponent(t.businessEmail)}?subject=${encodeURIComponent(t.inquiryAbout + ' ' + product.name)}" class="btn btn-primary inquiry-btn">
@@ -4649,6 +4788,7 @@ function renderProductDetail(container, product, t) {
   window.productHasSalePrice = hasSalePrice;
   window.productHasVariantPriceRange = hasVariantPriceRange;
   window.productVariantMinPrice = minVariantPrice;
+  window.productShowPricePerUnit = product.show_price_per_unit;
   window.productTranslations = t;
   
   // Initialize variant selection if product has variants
@@ -4669,8 +4809,13 @@ function changeMainImage(thumb, src) {
 function adjustQuantity(delta) {
   const input = document.getElementById('product-quantity');
   if (!input) return;
-  const newVal = Math.max(1, Math.min(99, parseInt(input.value || 1) + delta));
-  input.value = newVal;
+  const step = parseFloat(input.dataset.step) || 1;
+  const minVal = step;
+  const current = parseFloat(input.value) || step;
+  const newVal = Math.max(minVal, Math.min(9999, current + delta * step));
+  // Round to avoid floating point issues
+  const decimals = (step.toString().split('.')[1] || '').length;
+  input.value = parseFloat(newVal.toFixed(decimals));
 }
 
 // Initialize variant selection functionality
@@ -4798,6 +4943,40 @@ function findMatchingVariant(variants, selectedAttributes) {
   });
 }
 
+// Recompute and update the price-per-unit info element on the detail page
+function updatePricePerUnitDisplay(effectivePrice, product, t) {
+  const perUnitEl = document.getElementById('product-price-per-unit');
+  if (!perUnitEl || !window.productShowPricePerUnit) return;
+  if (!effectivePrice) { perUnitEl.textContent = ''; return; }
+  
+  const unit = product.quantity_unit || 'piece';
+  let refAmount, refLabel, pricePerRef;
+  
+  if (unit === 'piece') {
+    const pieceUnit = product.piece_unit_type;
+    const pieceValue = parseFloat(product.piece_unit_value);
+    if (!pieceUnit || !pieceValue) { perUnitEl.textContent = ''; return; }
+    if (pieceUnit === 'gram') { refAmount = 100; refLabel = '100' + ((t.unitLabels && t.unitLabels.gram) || 'g'); }
+    else if (pieceUnit === 'ml') { refAmount = 100; refLabel = '100' + ((t.unitLabels && t.unitLabels.ml) || 'ml'); }
+    else if (pieceUnit === 'kg') { refAmount = 1; refLabel = (t.unitLabels && t.unitLabels.kg) || 'kg'; }
+    else if (pieceUnit === 'liter') { refAmount = 1; refLabel = (t.unitLabels && t.unitLabels.liter) || 'L'; }
+    else { perUnitEl.textContent = ''; return; }
+    pricePerRef = (effectivePrice / pieceValue) * refAmount;
+  } else {
+    const step = parseFloat(product.quantity_step) || 1;
+    if (!step) { perUnitEl.textContent = ''; return; }
+    if (unit === 'gram') { refAmount = 100; refLabel = '100' + ((t.unitLabels && t.unitLabels.gram) || 'g'); }
+    else if (unit === 'ml') { refAmount = 100; refLabel = '100' + ((t.unitLabels && t.unitLabels.ml) || 'ml'); }
+    else if (unit === 'kg') { refAmount = 1; refLabel = (t.unitLabels && t.unitLabels.kg) || 'kg'; }
+    else if (unit === 'liter') { refAmount = 1; refLabel = (t.unitLabels && t.unitLabels.liter) || 'L'; }
+    else if (unit === 'custom') { refAmount = 1; refLabel = product.custom_unit_label || ''; }
+    else { perUnitEl.textContent = ''; return; }
+    pricePerRef = (effectivePrice / step) * refAmount;
+  }
+  
+  perUnitEl.textContent = t.currency + pricePerRef.toFixed(2) + ' / ' + refLabel;
+}
+
 // Update UI when variant selection changes
 function updateVariantUI(variant, product, t, selectedAttributes) {
   const priceDisplay = document.getElementById('product-price-display');
@@ -4827,6 +5006,9 @@ function updateVariantUI(variant, product, t, selectedAttributes) {
         priceDisplay.textContent = t.currency + finalPrice.toFixed(2);
       }
     }
+    
+    // Update price-per-unit info to match the variant's effective price
+    updatePricePerUnitDisplay(finalPrice, product, t);
     
     // Update stock status
     const variantInStock = variant.stock_status !== 'out_of_stock';
@@ -4863,6 +5045,10 @@ function updateVariantUI(variant, product, t, selectedAttributes) {
       }
     }
     
+    // Reset price-per-unit to match the base display price
+    var resetPrice = hasVariantPriceRange && Number.isFinite(variantMinPrice) ? variantMinPrice : basePrice;
+    updatePricePerUnitDisplay(resetPrice, product, t);
+    
     // Reset to base product stock
     const baseInStock = product.stock_status !== 'out_of_stock';
     if (stockDisplay) {
@@ -4886,13 +5072,22 @@ function addProductToCart() {
   const product = window.currentProduct;
   if (!product) return;
   
-  const quantity = parseInt(document.getElementById('product-quantity')?.value || 1);
+  const qtyInput = document.getElementById('product-quantity');
+  const quantity = parseFloat(qtyInput?.value || 1);
   const selectedVariant = window.selectedVariant;
+  
+  // Get quantity unit info from the product
+  const quantityUnit = product.quantity_unit || 'piece';
+  const quantityStep = parseFloat(product.quantity_step) || 1;
+  const customUnitLabel = product.custom_unit_label || null;
   
   // Create cart item with variant info if selected
   const cartItem = {
     ...product,
-    quantity: quantity
+    quantity: quantity,
+    quantityUnit: quantityUnit,
+    quantityStep: quantityStep,
+    customUnitLabel: customUnitLabel
   };
   
   if (selectedVariant) {
@@ -4920,10 +5115,8 @@ function addProductToCart() {
     }
   }
   
-  // Add to cart with quantity
-  for (let i = 0; i < quantity; i++) {
-    window.zappyAddToCart(cartItem);
-  }
+  // Add to cart (addToCart handles merging with existing items)
+  window.zappyAddToCart(cartItem);
 }
 
 async function loadRelatedProducts(currentProduct, t) {
