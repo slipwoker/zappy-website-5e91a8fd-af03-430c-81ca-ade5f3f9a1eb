@@ -498,6 +498,8 @@ window.onload = function() {
 ;
 
 ;
+
+;
 /* ==ZAPPY E-COMMERCE JS START== */
 // E-commerce functionality
 (function() {
@@ -975,8 +977,9 @@ function stripHtmlToText(html) {
     }
     return '/' + url;
   }
-  // Expose helper for functions outside this IIFE
+  // Expose helpers for functions outside this IIFE
   window.resolveProductImageUrl = resolveProductImageUrl;
+  window.getPricePerUnitHtml = getPricePerUnitHtml;
   
   // Render products to grid
   function renderProductsToGrid(grid, products) {
