@@ -1,65 +1,55 @@
-# מתקל — Generative Engine Optimization Map
-
-> A חינוך ולמידה דיגיטלית business.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
 ### Home
-https://metkal.zappy5.app
+https://matcal.co.il
 
 ### Subjects
-https://metkal.zappy5.app/subjects
+https://matcal.co.il/subjects
 
 ### Solution Format
-https://metkal.zappy5.app/solution
+https://matcal.co.il/solution
 
 ### Contact
-https://metkal.zappy5.app/contact
+https://matcal.co.il/contact
 
 ### Products
-https://metkal.zappy5.app/products
+https://matcal.co.il/products
 המוצרים שלנו - מתקל
 
 ### Product Detail
-https://metkal.zappy5.app/product/:slug
+https://matcal.co.il/product/:slug
 פרטי המוצר - מתקל
 
 ### Category
-https://metkal.zappy5.app/category/:slug
+https://matcal.co.il/category/:slug
 מוצרים - מתקל
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://metkal.zappy5.app/privacy
+https://matcal.co.il/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://metkal.zappy5.app/terms
+https://matcal.co.il/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://metkal.zappy5.app/accessibility
+https://matcal.co.il/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About מתקל
-מתקל is a business in the חינוך ולמידה דיגיטלית industry.
-
-## Target Audience
-תלמידים וסטודנטים
-
-## Industry
-חינוך ולמידה דיגיטלית
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://metkal.zappy5.app/sitemap.xml
-- **Robots.txt**: https://metkal.zappy5.app/robots.txt
+- **Sitemap**: https://matcal.co.il/sitemap.xml
+- **Robots.txt**: https://matcal.co.il/robots.txt
