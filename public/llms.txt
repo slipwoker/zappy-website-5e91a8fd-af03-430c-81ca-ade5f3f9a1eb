@@ -28,6 +28,9 @@ https://matcal.co.il/product/:slug
 https://matcal.co.il/category/:slug
 מוצרים - מתקל
 
+### Page
+https://matcal.co.il/course-purchases
+
 ## Legal & Policy
 
 ### Privacy Policy
