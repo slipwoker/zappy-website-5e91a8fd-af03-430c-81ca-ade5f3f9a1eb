@@ -17,9 +17,6 @@ https://matcal.co.il/products
 ### Page
 https://matcal.co.il/solution
 
-### Page
-https://matcal.co.il/course-purchases
-
 ### פרטי המוצר
 https://matcal.co.il/product/:slug
 פרטי המוצר - מתקל
@@ -27,6 +24,9 @@ https://matcal.co.il/product/:slug
 ### מוצרים
 https://matcal.co.il/category/:slug
 מוצרים - מתקל
+
+### Page
+https://matcal.co.il/course-purchases
 
 ### Page
 https://matcal.co.il/contact
