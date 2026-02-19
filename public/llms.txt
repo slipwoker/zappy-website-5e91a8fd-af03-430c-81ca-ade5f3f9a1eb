@@ -8,10 +8,10 @@
 https://matcal.co.il
 
 ### Page
-https://matcal.co.il/course-purchases
+https://matcal.co.il/subjects
 
 ### Page
-https://matcal.co.il/subjects
+https://matcal.co.il/course-purchases
 
 ### Page
 https://matcal.co.il/solution
