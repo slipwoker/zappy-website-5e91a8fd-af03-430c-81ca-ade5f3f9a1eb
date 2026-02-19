@@ -7,21 +7,21 @@
 ### Page
 https://matcal.co.il
 
-### Page
-https://matcal.co.il/subjects
-
-### Products
+### מוצרים
 https://matcal.co.il/products
 המוצרים שלנו - מתקל
 
 ### Page
+https://matcal.co.il/subjects
+
+### Page
 https://matcal.co.il/solution
 
-### Product Detail
+### פרטי המוצר
 https://matcal.co.il/product/:slug
 פרטי המוצר - מתקל
 
-### Category
+### מוצרים
 https://matcal.co.il/category/:slug
 מוצרים - מתקל
 
