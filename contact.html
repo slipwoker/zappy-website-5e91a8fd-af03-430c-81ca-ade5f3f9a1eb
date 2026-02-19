@@ -1,22 +1,13 @@
-<!DOCTYPE html><html lang="he" dir="rtl" data-zappy-site-type="ecommerce"><head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>צור קשר - מתקל</title>
-  <meta name="description" content="Contact - מתקל provides professional חינוך ולמידה דיגיטלית services. Specializing in פתרון תרגילים במתמטיקה.">
-  <meta name="keywords" content="פתרון תרגילים במתמטיקה, מתקל, פתרון בגרויות במתמטיקה, מתקל- תרגול במתמטיקה">
-  <meta name="robots" content="index, follow">
-  
-  <meta property="og:title" content="צור קשר - מתקל">
-  <meta property="og:description" content="Contact - מתקל provides professional חינוך ולמידה דיגיטלית services. Specializing in פתרון תרגילים במתמטיקה.">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="he_IL">
-  
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="צור קשר - מתקל">
-  <meta name="twitter:description" content="Contact - מתקל provides professional חינוך ולמידה דיגיטלית services. Specializing in פתרון תרגילים במתמטיקה.">
-  <link rel="stylesheet" href="/styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <title>Generated Website</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    
     <!-- Favicons -->
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
@@ -25,434 +16,7 @@
     <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192x192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
-    <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
-    <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
-    <!-- Mickidum Accessibility Toolbar -->
-    <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
-
-          <style id="zappy-cta-mobile-style">
-            /* Hide CTA list item on desktop (tablets and up) */
-            @media (min-width: 769px) {
-              .nav-cta-item-mobile {
-                display: none !important;
-              }
-            }
-            /* Show CTA list item on mobile */
-            @media (max-width: 768px) {
-              .nav-cta-item-mobile {
-                display: list-item !important;
-              }
-            }
-          </style>
-        
-          <style id="zappy-nested-menu-style">
-            /* Desktop only: vertically center nav items */
-            @media (min-width: 769px) {
-              .nav-menu,
-              #navMenu {
-                align-items: center !important;
-              }
-            }
-            
-            /* Menu Group styling (non-clickable parent) - TOP LEVEL ONLY with ultra-specific selector */
-            .nav-menu > li > .menu-group-title,
-            #navMenu > li > .menu-group-title {
-              display: inline-block !important;
-              padding: 0.5rem 1rem !important;
-              color: var(--nav-color) !important;
-              font-weight: 500 !important;
-              line-height: 1.7 !important;
-              cursor: default !important;
-              user-select: none !important;
-              vertical-align: middle !important;
-              text-decoration: none !important;
-              margin: 0 !important;
-              transition: color 0.3s ease !important;
-            }
-            
-            .nav-menu > li > .menu-group-title:hover,
-            #navMenu > li > .menu-group-title:hover {
-              color: var(--nav-hover-color) !important;
-            }
-            
-            /* Desktop: show submenu on Menu Group hover */
-            li:has(.menu-group-title):hover > .sub-menu {
-              opacity: 1 !important;
-              visibility: visible !important;
-              transform: translateY(0) !important;
-              pointer-events: auto !important; /* Enable interaction when hovering */
-            }
-            
-            /* Hide menu items marked as hidden (overrides hover states) */
-            .zappy-hidden-menu-item,
-            li:has(.menu-group-title):hover > .sub-menu .zappy-hidden-menu-item {
-              display: none !important;
-              opacity: 0 !important;
-              visibility: hidden !important;
-              pointer-events: none !important;
-            }
-            
-            /* Keep submenu visible when hovering over the submenu itself */
-            .sub-menu:hover {
-              opacity: 1 !important;
-              visibility: visible !important;
-              pointer-events: auto !important;
-            }
-            
-            /* Nested dropdown menu styles - using more specific selectors */
-            .nav-menu .sub-menu,
-            nav .sub-menu,
-            .navbar .sub-menu {
-              display: block !important; /* Ensure submenu is in the DOM */
-              position: absolute !important;
-              top: 100%;
-              left: 0;
-              right: auto;
-              min-width: 200px;
-              background: white;
-              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-              border-radius: 8px;
-              padding: 8px 0;
-              margin-top: 0px; /* Remove gap to prevent hover loss */
-              opacity: 0 !important;
-              visibility: hidden !important;
-              transform: translateY(-10px);
-              transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
-              z-index: 1000;
-              list-style: none;
-              pointer-events: none; /* Prevent interaction when hidden */
-            }
-            
-            /* RTL (Hebrew/Arabic) submenu positioning - align to right instead of left */
-            [dir="rtl"] .nav-menu .sub-menu,
-            [dir="rtl"] nav .sub-menu,
-            [dir="rtl"] .navbar .sub-menu,
-            html[lang="he"] .nav-menu .sub-menu,
-            html[lang="he"] nav .sub-menu,
-            html[lang="he"] .navbar .sub-menu,
-            html[lang="ar"] .nav-menu .sub-menu,
-            html[lang="ar"] nav .sub-menu,
-            html[lang="ar"] .navbar .sub-menu {
-              left: auto;
-              right: 0;
-            }
-            
-            /* Show submenu on parent hover - more specific selectors */
-            .nav-menu li:hover > .sub-menu,
-            nav li:hover > .sub-menu,
-            .navbar li:hover > .sub-menu {
-              opacity: 1 !important;
-              visibility: visible !important;
-              transform: translateY(0) !important;
-              pointer-events: auto !important; /* Enable interaction when visible */
-            }
-            
-            /* Parent item must be relatively positioned */
-            .nav-menu li:has(.sub-menu),
-            nav li:has(.sub-menu),
-            .navbar li:has(.sub-menu) {
-              position: relative;
-            }
-            
-            /* Style for submenu items */
-            .sub-menu li {
-              list-style: none;
-              margin: 0;
-              padding: 0;
-            }
-            
-            .sub-menu a,
-            .sub-menu .menu-group-title {
-              display: block !important;
-              padding: 10px 12px !important;
-              color: #333 !important;
-              font-weight: 600 !important;
-              text-decoration: none;
-              transition: background-color 0.2s;
-              white-space: nowrap;
-              cursor: default;
-            }
-            
-            .sub-menu a:hover {
-              background-color: #f5f5f5;
-            }
-            
-            /* CRITICAL: Override submenu styles for TOP-LEVEL Menu Groups only - must come AFTER submenu styles */
-            .nav-menu > li > .menu-group-title,
-            #navMenu > li > .menu-group-title {
-              display: inline-block !important;
-              padding: 0.5rem 1rem !important;
-              color: var(--nav-color) !important;
-              font-weight: 500 !important;
-              line-height: 1.7 !important;
-              cursor: default !important;
-              user-select: none !important;
-              vertical-align: middle !important;
-              text-decoration: none !important;
-              margin: 0 !important;
-              transition: color 0.3s ease !important;
-            }
-            
-            .nav-menu > li > .menu-group-title:hover,
-            #navMenu > li > .menu-group-title:hover {
-              color: var(--nav-hover-color) !important;
-              background-color: transparent !important;
-            }
-            
-            /* On mobile, show nested menus as expandable accordion */
-            @media (max-width: 768px) {
-              /* Mobile submenu styling */
-              .nav-menu .sub-menu,
-              nav .sub-menu,
-              .navbar .sub-menu {
-                position: static !important;
-                transform: none !important;
-                box-shadow: none !important;
-                background: transparent !important;
-                margin-top: 0 !important;
-                max-height: 0;
-                overflow: hidden;
-                opacity: 0;
-                visibility: hidden;
-                transition: max-height 0.3s ease, opacity 0.3s ease, visibility 0.3s ease, padding 0.3s ease;
-                padding: 0 !important;
-                border-radius: 0 !important;
-              }
-              
-              /* Expanded state */
-              .sub-menu.mobile-expanded {
-                max-height: 500px !important;
-                opacity: 1 !important;
-                visibility: visible !important;
-                padding: 8px 0 8px 16px !important;
-              }
-              
-              /* RTL padding adjustment */
-              [dir="rtl"] .sub-menu.mobile-expanded,
-              html[lang="he"] .sub-menu.mobile-expanded,
-              html[lang="ar"] .sub-menu.mobile-expanded {
-                padding: 8px 16px 8px 0 !important;
-              }
-              
-              /* Disable hover behavior on mobile */
-              .nav-menu li:hover > .sub-menu,
-              nav li:hover > .sub-menu,
-              .navbar li:hover > .sub-menu {
-                opacity: 0;
-                visibility: hidden;
-                pointer-events: none;
-              }
-              
-              /* Enable visibility for expanded submenus */
-              .nav-menu li > .sub-menu.mobile-expanded,
-              nav li > .sub-menu.mobile-expanded,
-              .navbar li > .sub-menu.mobile-expanded {
-                opacity: 1 !important;
-                visibility: visible !important;
-                pointer-events: auto !important;
-              }
-              
-              .sub-menu a {
-                padding: 10px 0 !important;
-                display: block !important;
-                font-size: 14px !important;
-              }
-              
-              .sub-menu a:hover {
-                background-color: transparent !important;
-              }
-              
-              /* Parent item wrapper - flex layout for link + toggle */
-              .nav-menu li:has(.sub-menu),
-              nav li:has(.sub-menu),
-              .navbar li:has(.sub-menu) {
-                display: flex !important;
-                flex-wrap: wrap !important;
-                align-items: center !important;
-              }
-              
-              /* Parent link - takes most space, allows navigation */
-              .nav-menu li:has(.sub-menu) > a,
-              nav li:has(.sub-menu) > a,
-              .navbar li:has(.sub-menu) > a,
-              .nav-menu > li > .menu-group-title,
-              #navMenu > li > .menu-group-title {
-                flex: 1 !important;
-              }
-              
-              /* HIDE EXISTING CHEVRONS/ARROWS from cloned sites to prevent duplicates */
-              .nav-menu li:has(.sub-menu) > a .fa-chevron-down,
-              .nav-menu li:has(.sub-menu) > a .fa-angle-down,
-              .nav-menu li:has(.sub-menu) > a [class*="chevron"],
-              .nav-menu li:has(.sub-menu) > a [class*="arrow"],
-              nav li:has(.sub-menu) > a [class*="chevron"],
-              nav li:has(.sub-menu) > a [class*="arrow"],
-              #navMenu li:has(.sub-menu) > a [class*="chevron"],
-              #navMenu li:has(.sub-menu) > a [class*="arrow"] {
-                display: none !important;
-                visibility: hidden !important;
-              }
-              
-              /* Toggle arrow button - separate clickable area */
-              .mobile-submenu-toggle {
-                display: flex !important;
-                align-items: center !important;
-                justify-content: center !important;
-                width: 44px !important;
-                height: 44px !important;
-                background: transparent !important;
-                border: none !important;
-                cursor: pointer !important;
-                padding: 0 !important;
-                margin: 0 !important;
-                flex-shrink: 0 !important;
-                -webkit-tap-highlight-color: transparent;
-              }
-              
-              .mobile-submenu-toggle::after {
-                content: '' !important;
-                display: block !important;
-                width: 0 !important;
-                height: 0 !important;
-                border-left: 6px solid transparent !important;
-                border-right: 6px solid transparent !important;
-                border-top: 7px solid currentColor !important;
-                transition: transform 0.3s ease !important;
-              }
-              
-              /* Rotate arrow when expanded */
-              .mobile-submenu-toggle.expanded::after {
-                transform: rotate(180deg) !important;
-              }
-              
-              /* Submenu takes full width below parent */
-              .nav-menu li:has(.sub-menu) > .sub-menu,
-              nav li:has(.sub-menu) > .sub-menu,
-              .navbar li:has(.sub-menu) > .sub-menu {
-                flex-basis: 100% !important;
-                width: 100% !important;
-              }
-            }
-            
-            /* Hide toggle button on desktop */
-            @media (min-width: 769px) {
-              .mobile-submenu-toggle {
-                display: none !important;
-              }
-            }
-          </style>
-          
-          <script id="zappy-mobile-menu-script">
-            // Mobile menu toggle for nested submenus (including Menu Groups)
-            // Uses separate toggle button - link navigates, arrow toggles submenu
-            (function() {
-              function initMobileMenuToggles() {
-                // Only run on mobile
-                if (window.innerWidth > 768) {
-                  // Remove any toggle buttons on desktop
-                  document.querySelectorAll('.mobile-submenu-toggle').forEach(btn => btn.remove());
-                  document.querySelectorAll('.sub-menu.mobile-expanded').forEach(menu => {
-                    menu.classList.remove('mobile-expanded');
-                  });
-                  console.log('[MOBILE MENU] Desktop mode - cleanup done');
-                  return;
-                }
-                
-                console.log('[MOBILE MENU] Initializing mobile menu toggles...');
-                
-                // Find all parent menu items (items with .sub-menu)
-                const menuItemsWithSubmenus = document.querySelectorAll(
-                  '.nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu)'
-                );
-                
-                console.log('[MOBILE MENU] Found', menuItemsWithSubmenus.length, 'items with submenus');
-                
-                menuItemsWithSubmenus.forEach(function(li) {
-                  // Skip if already has toggle button
-                  if (li.querySelector('.mobile-submenu-toggle')) {
-                    return;
-                  }
-                  
-                  const submenu = li.querySelector('.sub-menu');
-                  const parentLink = li.querySelector(':scope > a') || li.querySelector(':scope > .menu-group-title');
-                  
-                  if (!submenu || !parentLink) return;
-                  
-                  // Create toggle button
-                  const toggleBtn = document.createElement('button');
-                  toggleBtn.className = 'mobile-submenu-toggle';
-                  toggleBtn.setAttribute('aria-label', 'Toggle submenu');
-                  toggleBtn.setAttribute('type', 'button');
-                  
-                  // Insert toggle button after the link
-                  parentLink.insertAdjacentElement('afterend', toggleBtn);
-                  
-                  console.log('[MOBILE MENU] Created toggle button for:', parentLink.textContent?.trim());
-                  
-                  // Handle toggle button click - only toggles submenu
-                  toggleBtn.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    
-                    const isExpanded = submenu.classList.contains('mobile-expanded');
-                    
-                    // Close all other submenus first
-                    document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) {
-                      if (menu !== submenu) {
-                        menu.classList.remove('mobile-expanded');
-                        const otherToggle = menu.parentElement.querySelector('.mobile-submenu-toggle');
-                        if (otherToggle) otherToggle.classList.remove('expanded');
-                      }
-                    });
-                    
-                    // Toggle this submenu
-                    submenu.classList.toggle('mobile-expanded');
-                    toggleBtn.classList.toggle('expanded');
-                    
-                    console.log('[MOBILE MENU] Toggled submenu:', !isExpanded ? 'expanded' : 'collapsed');
-                  });
-                  
-                  // Parent link navigates normally - no preventDefault
-                });
-              }
-              
-              // Initialize on DOM load
-              if (document.readyState === 'loading') {
-                document.addEventListener('DOMContentLoaded', initMobileMenuToggles);
-              } else {
-                initMobileMenuToggles();
-              }
-              
-              // Re-initialize on window resize (but use debounce to avoid too many calls)
-              let resizeTimer;
-              window.addEventListener('resize', function() {
-                clearTimeout(resizeTimer);
-                resizeTimer = setTimeout(initMobileMenuToggles, 250);
-              });
-              
-              // Also initialize when mobile menu becomes visible
-              // This handles cases where the mobile menu is hidden initially
-              const observer = new MutationObserver(function(mutations) {
-                mutations.forEach(function(mutation) {
-                  if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
-                    const target = mutation.target;
-                    if (target.classList.contains('active') || target.style.display !== 'none') {
-                      console.log('[MOBILE MENU] Mobile menu became visible, re-initializing...');
-                      setTimeout(initMobileMenuToggles, 100);
-                    }
-                  }
-                });
-              });
-              
-              // Observe mobile menu containers
-              const mobileMenus = document.querySelectorAll('.mobile-menu, .nav-menu, #navMenu');
-              mobileMenus.forEach(function(menu) {
-                observer.observe(menu, { attributes: true, attributeFilter: ['class', 'style'] });
-              });
-            })();
-          </script>
-        <!-- Zappy Analytics -->
+    <!-- Zappy Analytics -->
 <script>
 (function() {
   'use strict';
@@ -654,17 +218,516 @@
 })();
 </script>
 <!-- End Zappy Analytics -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/styles.css">
+    <style id="zappy-dropdown-submenu-styles">
+      /* ========== DESKTOP DROPDOWN SUBMENU STYLES ========== */
+      /* Base styles for dropdown submenus - parent must be positioned */
+      .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) { position: relative; }
+      /* Submenu base - hidden by default */
+      .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { display: block !important; position: absolute !important; top: 100%; left: 0; min-width: 220px; background: white; border-radius: 8px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); padding: 8px 0; opacity: 0; visibility: hidden; transform: translateY(10px); transition: all 0.3s ease; z-index: 1000; list-style: none; pointer-events: none; }
+      /* CRITICAL: Desktop hover styles to show dropdown */
+      .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; pointer-events: auto !important; }
+      /* Submenu item styling */
+      .sub-menu li { list-style: none; margin: 0; padding: 0; }
+      .sub-menu a { display: block !important; padding: 10px 16px !important; color: #333 !important; font-weight: 500; text-decoration: none; white-space: nowrap; transition: background-color 0.2s; }
+      .sub-menu a:hover { background-color: #f5f5f5; }
+      /* RTL (Hebrew/Arabic) dropdown positioning */
+      [dir="rtl"] .nav-menu .sub-menu, [dir="rtl"] nav .sub-menu, [dir="rtl"] .navbar .sub-menu, html[lang="he"] .nav-menu .sub-menu, html[lang="he"] nav .sub-menu, html[lang="he"] .navbar .sub-menu, html[lang="ar"] .nav-menu .sub-menu, html[lang="ar"] nav .sub-menu, html[lang="ar"] .navbar .sub-menu { left: auto !important; right: 0 !important; }
+      /* Hide empty dropdown menus */
+      .sub-menu:empty, .sub-menu:not(:has(li:not(.zappy-hidden-menu-item))), .sub-menu:not(:has(li)) { display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important; }
+      /* Desktop: show submenu on Menu Group hover */
+      li:has(.menu-group-title):hover > .sub-menu { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; pointer-events: auto !important; }
+      /* Menu Group title styling */
+      .nav-menu > li > .menu-group-title, #navMenu > li > .menu-group-title { display: inline-block; padding: 0.5rem 1rem; cursor: default; user-select: none; }
+      
+      /* ========== MOBILE SUBMENU STYLES ========== */
+      @media (max-width: 768px) {
+        .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { position: static !important; transform: none !important; box-shadow: none !important; background: transparent !important; max-height: 0; overflow: hidden; opacity: 0; visibility: hidden; transition: max-height 0.3s ease, opacity 0.3s ease; padding: 0 !important; border-radius: 0 !important; }
+        .sub-menu.mobile-expanded { max-height: 500px !important; opacity: 1 !important; visibility: visible !important; padding: 8px 0 8px 16px !important; }
+        [dir="rtl"] .sub-menu.mobile-expanded, html[lang="he"] .sub-menu.mobile-expanded { padding: 8px 16px 8px 0 !important; }
+        /* Disable hover behavior on mobile */
+        .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu { opacity: 0; visibility: hidden; pointer-events: none; }
+        .nav-menu li > .sub-menu.mobile-expanded, nav li > .sub-menu.mobile-expanded, .navbar li > .sub-menu.mobile-expanded, #navMenu li > .sub-menu.mobile-expanded { opacity: 1 !important; visibility: visible !important; pointer-events: auto !important; }
+        .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) { display: flex !important; flex-wrap: wrap !important; align-items: center !important; }
+        .nav-menu li:has(.sub-menu) > a, nav li:has(.sub-menu) > a, .navbar li:has(.sub-menu) > a, #navMenu li:has(.sub-menu) > a { flex: 1 !important; }
+        .nav-menu li:has(.sub-menu) > a [class*="chevron"], .nav-menu li:has(.sub-menu) > a [class*="arrow"], .nav-menu li:has(.sub-menu) > a .fa-chevron-down, .nav-menu li:has(.sub-menu) > a .fa-angle-down, nav li:has(.sub-menu) > a [class*="chevron"], nav li:has(.sub-menu) > a [class*="arrow"], #navMenu li:has(.sub-menu) > a [class*="chevron"], #navMenu li:has(.sub-menu) > a [class*="arrow"] { display: none !important; visibility: hidden !important; }
+        .mobile-submenu-toggle { display: flex !important; align-items: center !important; justify-content: center !important; width: 44px !important; height: 44px !important; background: transparent !important; border: none !important; cursor: pointer !important; }
+        .mobile-submenu-toggle::after { content: '' !important; width: 0 !important; height: 0 !important; border-left: 6px solid transparent !important; border-right: 6px solid transparent !important; border-top: 7px solid currentColor !important; transition: transform 0.3s ease !important; }
+        .mobile-submenu-toggle.expanded::after { transform: rotate(180deg) !important; }
+        .nav-menu li:has(.sub-menu) > .sub-menu, nav li:has(.sub-menu) > .sub-menu { flex-basis: 100% !important; width: 100% !important; }
+        .sub-menu a { padding: 10px 0 !important; display: block !important; }
+        .nav-menu li:has(.sub-menu) > .menu-group-title, nav li:has(.sub-menu) > .menu-group-title, .navbar li:has(.sub-menu) > .menu-group-title, #navMenu li:has(.sub-menu) > .menu-group-title { flex: 1 !important; }
+      }
+      @media (min-width: 769px) { .mobile-submenu-toggle { display: none !important; } }
+    </style>
 </head>
+<body>
+<!DOCTYPE ><html lang="he" dir="rtl" data-zappy-site-type="ecommerce"><head>
+  <meta charset="UTF-8"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+  <title>צור קשר - מתקל</title>
+  <meta name="description" content="Contact - מתקל provides professional חינוך ולמידה דיגיטלית services. Specializing in פתרון תרגילים במתמטיקה."></meta>
+  <meta name="keywords" content="פתרון תרגילים במתמטיקה, מתקל, פתרון בגרויות במתמטיקה, מתקל- תרגול במתמטיקה"></meta>
+  <meta name="robots" content="index, follow"></meta>
+  
+  <meta property="og:title" content="צור קשר - מתקל"></meta>
+  <meta property="og:description" content="Contact - מתקל provides professional חינוך ולמידה דיגיטלית services. Specializing in פתרון תרגילים במתמטיקה."></meta>
+  <meta property="og:type" content="website"></meta>
+  <meta property="og:locale" content="he_IL"></meta>
+  
+  <meta name="twitter:card" content="summary_large_image"></meta>
+  <meta name="twitter:title" content="צור קשר - מתקל"></meta>
+  <meta name="twitter:description" content="Contact - מתקל provides professional חינוך ולמידה דיגיטלית services. Specializing in פתרון תרגילים במתמטיקה."></meta>
+  <link rel="stylesheet" href="/styles.css"></link>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></link>
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"></link>
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"></link>
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"></link>
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48x48.png"></link>
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192x192.png"></link>
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png"></link>
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"></link>
+    <!-- Cookie Consent -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css"></link>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
+    <!-- Mickidum Accessibility Toolbar -->
+    <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+          <style id="zappy-cta-mobile-style">
+            /* Hide CTA list item on desktop (tablets and up) */
+            @media (min-width: 769px) {
+              .nav-cta-item-mobile {
+                display: none !important;
+              }
+            }
+            /* Show CTA list item on mobile */
+            @media (max-width: 768px) {
+              .nav-cta-item-mobile {
+                display: list-item !important;
+              }
+            }
+          </style>
+        
+          <style id="zappy-nested-menu-style">
+            /* Desktop only: vertically center nav items */
+            @media (min-width: 769px) {
+              .nav-menu,
+              #navMenu {
+                align-items: center !important;
+              }
+            }
+            
+            /* Menu Group styling (non-clickable parent) - TOP LEVEL ONLY with ultra-specific selector */
+            .nav-menu &gt; li &gt; .menu-group-title,
+            #navMenu &gt; li &gt; .menu-group-title {
+              display: inline-block !important;
+              padding: 0.5rem 1rem !important;
+              color: var(--nav-color) !important;
+              font-weight: 500 !important;
+              line-height: 1.7 !important;
+              cursor: default !important;
+              user-select: none !important;
+              vertical-align: middle !important;
+              text-decoration: none !important;
+              margin: 0 !important;
+              transition: color 0.3s ease !important;
+            }
+            
+            .nav-menu &gt; li &gt; .menu-group-title:hover,
+            #navMenu &gt; li &gt; .menu-group-title:hover {
+              color: var(--nav-hover-color) !important;
+            }
+            
+            /* Desktop: show submenu on Menu Group hover */
+            li:has(.menu-group-title):hover &gt; .sub-menu {
+              opacity: 1 !important;
+              visibility: visible !important;
+              transform: translateY(0) !important;
+              pointer-events: auto !important; /* Enable interaction when hovering */
+            }
+            
+            /* Hide menu items marked as hidden (overrides hover states) */
+            .zappy-hidden-menu-item,
+            li:has(.menu-group-title):hover &gt; .sub-menu .zappy-hidden-menu-item {
+              display: none !important;
+              opacity: 0 !important;
+              visibility: hidden !important;
+              pointer-events: none !important;
+            }
+            
+            /* Keep submenu visible when hovering over the submenu itself */
+            .sub-menu:hover {
+              opacity: 1 !important;
+              visibility: visible !important;
+              pointer-events: auto !important;
+            }
+            
+            /* Nested dropdown menu styles - using more specific selectors */
+            .nav-menu .sub-menu,
+            nav .sub-menu,
+            .navbar .sub-menu {
+              display: block !important; /* Ensure submenu is in the DOM */
+              position: absolute !important;
+              top: 100%;
+              left: 0;
+              right: auto;
+              min-width: 200px;
+              background: white;
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+              border-radius: 8px;
+              padding: 8px 0;
+              margin-top: 0px; /* Remove gap to prevent hover loss */
+              opacity: 0 !important;
+              visibility: hidden !important;
+              transform: translateY(-10px);
+              transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+              z-index: 1000;
+              list-style: none;
+              pointer-events: none; /* Prevent interaction when hidden */
+            }
+            
+            /* RTL (Hebrew/Arabic) submenu positioning - align to right instead of left */
+            [dir="rtl"] .nav-menu .sub-menu,
+            [dir="rtl"] nav .sub-menu,
+            [dir="rtl"] .navbar .sub-menu,
+            html[lang="he"] .nav-menu .sub-menu,
+            html[lang="he"] nav .sub-menu,
+            html[lang="he"] .navbar .sub-menu,
+            html[lang="ar"] .nav-menu .sub-menu,
+            html[lang="ar"] nav .sub-menu,
+            html[lang="ar"] .navbar .sub-menu {
+              left: auto;
+              right: 0;
+            }
+            
+            /* Show submenu on parent hover - more specific selectors */
+            .nav-menu li:hover &gt; .sub-menu,
+            nav li:hover &gt; .sub-menu,
+            .navbar li:hover &gt; .sub-menu {
+              opacity: 1 !important;
+              visibility: visible !important;
+              transform: translateY(0) !important;
+              pointer-events: auto !important; /* Enable interaction when visible */
+            }
+            
+            /* Parent item must be relatively positioned */
+            .nav-menu li:has(.sub-menu),
+            nav li:has(.sub-menu),
+            .navbar li:has(.sub-menu) {
+              position: relative;
+            }
+            
+            /* Style for submenu items */
+            .sub-menu li {
+              list-style: none;
+              margin: 0;
+              padding: 0;
+            }
+            
+            .sub-menu a,
+            .sub-menu .menu-group-title {
+              display: block !important;
+              padding: 10px 12px !important;
+              color: #333 !important;
+              font-weight: 600 !important;
+              text-decoration: none;
+              transition: background-color 0.2s;
+              white-space: nowrap;
+              cursor: default;
+            }
+            
+            .sub-menu a:hover {
+              background-color: #f5f5f5;
+            }
+            
+            /* CRITICAL: Override submenu styles for TOP-LEVEL Menu Groups only - must come AFTER submenu styles */
+            .nav-menu &gt; li &gt; .menu-group-title,
+            #navMenu &gt; li &gt; .menu-group-title {
+              display: inline-block !important;
+              padding: 0.5rem 1rem !important;
+              color: var(--nav-color) !important;
+              font-weight: 500 !important;
+              line-height: 1.7 !important;
+              cursor: default !important;
+              user-select: none !important;
+              vertical-align: middle !important;
+              text-decoration: none !important;
+              margin: 0 !important;
+              transition: color 0.3s ease !important;
+            }
+            
+            .nav-menu &gt; li &gt; .menu-group-title:hover,
+            #navMenu &gt; li &gt; .menu-group-title:hover {
+              color: var(--nav-hover-color) !important;
+              background-color: transparent !important;
+            }
+            
+            /* On mobile, show nested menus as expandable accordion */
+            @media (max-width: 768px) {
+              /* Mobile submenu styling */
+              .nav-menu .sub-menu,
+              nav .sub-menu,
+              .navbar .sub-menu {
+                position: static !important;
+                transform: none !important;
+                box-shadow: none !important;
+                background: transparent !important;
+                margin-top: 0 !important;
+                max-height: 0;
+                overflow: hidden;
+                opacity: 0;
+                visibility: hidden;
+                transition: max-height 0.3s ease, opacity 0.3s ease, visibility 0.3s ease, padding 0.3s ease;
+                padding: 0 !important;
+                border-radius: 0 !important;
+              }
+              
+              /* Expanded state */
+              .sub-menu.mobile-expanded {
+                max-height: 500px !important;
+                opacity: 1 !important;
+                visibility: visible !important;
+                padding: 8px 0 8px 16px !important;
+              }
+              
+              /* RTL padding adjustment */
+              [dir="rtl"] .sub-menu.mobile-expanded,
+              html[lang="he"] .sub-menu.mobile-expanded,
+              html[lang="ar"] .sub-menu.mobile-expanded {
+                padding: 8px 16px 8px 0 !important;
+              }
+              
+              /* Disable hover behavior on mobile */
+              .nav-menu li:hover &gt; .sub-menu,
+              nav li:hover &gt; .sub-menu,
+              .navbar li:hover &gt; .sub-menu {
+                opacity: 0;
+                visibility: hidden;
+                pointer-events: none;
+              }
+              
+              /* Enable visibility for expanded submenus */
+              .nav-menu li &gt; .sub-menu.mobile-expanded,
+              nav li &gt; .sub-menu.mobile-expanded,
+              .navbar li &gt; .sub-menu.mobile-expanded {
+                opacity: 1 !important;
+                visibility: visible !important;
+                pointer-events: auto !important;
+              }
+              
+              .sub-menu a {
+                padding: 10px 0 !important;
+                display: block !important;
+                font-size: 14px !important;
+              }
+              
+              .sub-menu a:hover {
+                background-color: transparent !important;
+              }
+              
+              /* Parent item wrapper - flex layout for link + toggle */
+              .nav-menu li:has(.sub-menu),
+              nav li:has(.sub-menu),
+              .navbar li:has(.sub-menu) {
+                display: flex !important;
+                flex-wrap: wrap !important;
+                align-items: center !important;
+              }
+              
+              /* Parent link - takes most space, allows navigation */
+              .nav-menu li:has(.sub-menu) &gt; a,
+              nav li:has(.sub-menu) &gt; a,
+              .navbar li:has(.sub-menu) &gt; a,
+              .nav-menu &gt; li &gt; .menu-group-title,
+              #navMenu &gt; li &gt; .menu-group-title {
+                flex: 1 !important;
+              }
+              
+              /* HIDE EXISTING CHEVRONS/ARROWS from cloned sites to prevent duplicates */
+              .nav-menu li:has(.sub-menu) &gt; a .fa-chevron-down,
+              .nav-menu li:has(.sub-menu) &gt; a .fa-angle-down,
+              .nav-menu li:has(.sub-menu) &gt; a [class*="chevron"],
+              .nav-menu li:has(.sub-menu) &gt; a [class*="arrow"],
+              nav li:has(.sub-menu) &gt; a [class*="chevron"],
+              nav li:has(.sub-menu) &gt; a [class*="arrow"],
+              #navMenu li:has(.sub-menu) &gt; a [class*="chevron"],
+              #navMenu li:has(.sub-menu) &gt; a [class*="arrow"] {
+                display: none !important;
+                visibility: hidden !important;
+              }
+              
+              /* Toggle arrow button - separate clickable area */
+              .mobile-submenu-toggle {
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+                width: 44px !important;
+                height: 44px !important;
+                background: transparent !important;
+                border: none !important;
+                cursor: pointer !important;
+                padding: 0 !important;
+                margin: 0 !important;
+                flex-shrink: 0 !important;
+                -webkit-tap-highlight-color: transparent;
+              }
+              
+              .mobile-submenu-toggle::after {
+                content: '' !important;
+                display: block !important;
+                width: 0 !important;
+                height: 0 !important;
+                border-left: 6px solid transparent !important;
+                border-right: 6px solid transparent !important;
+                border-top: 7px solid currentColor !important;
+                transition: transform 0.3s ease !important;
+              }
+              
+              /* Rotate arrow when expanded */
+              .mobile-submenu-toggle.expanded::after {
+                transform: rotate(180deg) !important;
+              }
+              
+              /* Submenu takes full width below parent */
+              .nav-menu li:has(.sub-menu) &gt; .sub-menu,
+              nav li:has(.sub-menu) &gt; .sub-menu,
+              .navbar li:has(.sub-menu) &gt; .sub-menu {
+                flex-basis: 100% !important;
+                width: 100% !important;
+              }
+            }
+            
+            /* Hide toggle button on desktop */
+            @media (min-width: 769px) {
+              .mobile-submenu-toggle {
+                display: none !important;
+              }
+            }
+          </style>
+          
+          <script id="zappy-mobile-menu-script">
+            // Mobile menu toggle for nested submenus (including Menu Groups)
+            // Uses separate toggle button - link navigates, arrow toggles submenu
+            (function() {
+              function initMobileMenuToggles() {
+                // Only run on mobile
+                if (window.innerWidth &gt; 768) {
+                  // Remove any toggle buttons on desktop
+                  document.querySelectorAll('.mobile-submenu-toggle').forEach(btn =&gt; btn.remove());
+                  document.querySelectorAll('.sub-menu.mobile-expanded').forEach(menu =&gt; {
+                    menu.classList.remove('mobile-expanded');
+                  });
+                  console.log('[MOBILE MENU] Desktop mode - cleanup done');
+                  return;
+                }
+                
+                console.log('[MOBILE MENU] Initializing mobile menu toggles...');
+                
+                // Find all parent menu items (items with .sub-menu)
+                const menuItemsWithSubmenus = document.querySelectorAll(
+                  '.nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu)'
+                );
+                
+                console.log('[MOBILE MENU] Found', menuItemsWithSubmenus.length, 'items with submenus');
+                
+                menuItemsWithSubmenus.forEach(function(li) {
+                  // Skip if already has toggle button
+                  if (li.querySelector('.mobile-submenu-toggle')) {
+                    return;
+                  }
+                  
+                  const submenu = li.querySelector('.sub-menu');
+                  const parentLink = li.querySelector(':scope &gt; a') || li.querySelector(':scope &gt; .menu-group-title');
+                  
+                  if (!submenu || !parentLink) return;
+                  
+                  // Create toggle button
+                  const toggleBtn = document.createElement('button');
+                  toggleBtn.className = 'mobile-submenu-toggle';
+                  toggleBtn.setAttribute('aria-label', 'Toggle submenu');
+                  toggleBtn.setAttribute('type', 'button');
+                  
+                  // Insert toggle button after the link
+                  parentLink.insertAdjacentElement('afterend', toggleBtn);
+                  
+                  console.log('[MOBILE MENU] Created toggle button for:', parentLink.textContent?.trim());
+                  
+                  // Handle toggle button click - only toggles submenu
+                  toggleBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    
+                    const isExpanded = submenu.classList.contains('mobile-expanded');
+                    
+                    // Close all other submenus first
+                    document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) {
+                      if (menu !== submenu) {
+                        menu.classList.remove('mobile-expanded');
+                        const otherToggle = menu.parentElement.querySelector('.mobile-submenu-toggle');
+                        if (otherToggle) otherToggle.classList.remove('expanded');
+                      }
+                    });
+                    
+                    // Toggle this submenu
+                    submenu.classList.toggle('mobile-expanded');
+                    toggleBtn.classList.toggle('expanded');
+                    
+                    console.log('[MOBILE MENU] Toggled submenu:', !isExpanded ? 'expanded' : 'collapsed');
+                  });
+                  
+                  // Parent link navigates normally - no preventDefault
+                });
+              }
+              
+              // Initialize on DOM load
+              if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', initMobileMenuToggles);
+              } else {
+                initMobileMenuToggles();
+              }
+              
+              // Re-initialize on window resize (but use debounce to avoid too many calls)
+              let resizeTimer;
+              window.addEventListener('resize', function() {
+                clearTimeout(resizeTimer);
+                resizeTimer = setTimeout(initMobileMenuToggles, 250);
+              });
+              
+              // Also initialize when mobile menu becomes visible
+              // This handles cases where the mobile menu is hidden initially
+              const observer = new MutationObserver(function(mutations) {
+                mutations.forEach(function(mutation) {
+                  if (mutation.type === 'attributes' &amp;&amp; mutation.attributeName === 'class') {
+                    const target = mutation.target;
+                    if (target.classList.contains('active') || target.style.display !== 'none') {
+                      console.log('[MOBILE MENU] Mobile menu became visible, re-initializing...');
+                      setTimeout(initMobileMenuToggles, 100);
+                    }
+                  }
+                });
+              });
+              
+              // Observe mobile menu containers
+              const mobileMenus = document.querySelectorAll('.mobile-menu, .nav-menu, #navMenu');
+              mobileMenus.forEach(function(menu) {
+                observer.observe(menu, { attributes: true, attributeFilter: ['class', 'style'] });
+              });
+            })();
+          </script>
+        </head>
 <body>
 
     <div class="mobile-search-panel" id="mobile-search-panel">
       <div class="search-wrapper">
-        <input type="text" id="mobile-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
+        <input type="text" id="mobile-search-input" placeholder="חיפוש מוצרים..." autocomplete="off"></input>
         <button class="search-submit" id="mobile-search-submit" title="חיפוש">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
         </button>
         <button class="close-search" id="close-mobile-search">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+          <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"></path></svg>
         </button>
       </div>
       <div class="search-results" id="mobile-search-results"></div>
@@ -673,42 +736,42 @@
 <script>window.ZAPPY_WEBSITE_ID = "5e91a8fd-af03-430c-81ca-ade5f3f9a1eb";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display:none;">
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
   <button class="phone-header-btn" aria-label="Call">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+    <svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor">
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
   
   <div class="nav-container">
     <div class="nav-brand">
       <a href="/" class="logo-link">
-        <img src="/assets/business-logo.webp" alt="מתקל" class="logo">
+        <img src="/assets/business-logo.webp" alt="מתקל" class="logo"></img>
       </a>
     </div>
     
-    <ul class="nav-menu" id="navMenu"><li class="menu-item-has-children zappy-products-dropdown">
+    <ul class="nav-menu" id="navMenu"><li><a href="/" data-i18n="nav-home">בית</a></li><li class="menu-item-has-children zappy-products-dropdown">
       <a href="/products">
         מוצרים
-        <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M6 9l6 6 6-6"/>
+        <svg class="dropdown-arrow" width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 9l6 6 6-6"></path>
         </svg>
       </a>
       
-    </li><li><a href="/subjects">נושאים</a></li><li><a href="/solution">פורמט הפתרון</a></li><li style="display: none !important;" class="zappy-hidden-menu-item"><a href="/product/:slug">פרטי המוצר</a></li><li style="display: none !important;" class="zappy-hidden-menu-item"><a href="/category/:slug">מוצרים</a></li><li><a href="/course-purchases" class>רכישת קורסים</a></li><li><a href="/contact">צור קשר</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><div class="nav-search-box">
-    <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
+    </li><li><a href="/subjects">נושאים</a></li><li><a href="/solution">פורמט הפתרון</a></li><li style="display: none !important;" class="zappy-hidden-menu-item"><a href="/product/:slug">פרטי המוצר</a></li><li style="display: none !important;" class="zappy-hidden-menu-item"><a href="/category/:slug">מוצרים</a></li><li><a href="/course-purchases" class="">רכישת קורסים</a></li><li><a href="/contact">צור קשר</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><div class="nav-search-box">
+    <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש מוצרים..." autocomplete="off"></input>
     <button class="nav-search-btn" id="nav-search-btn" title="חיפוש">
-      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+      <svg class="search-icon" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
     </button>
     <div class="nav-search-results" id="nav-search-results"></div>
-  </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="חיפוש"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></button></div>
+  </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="חיפוש"><svg width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg></button></div>
     
     
   </div>
@@ -735,8 +798,8 @@
     </div>
   </div>
   <div class="contact-hero-divider-wrapper">
-    <svg aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,35 Q100,35 200,38 T400,35 Q500,38 600,35 T800,38 Q900,35 1000,38 T1200,42 L1200,80 Z" fill="var(--bg-light)"/>
+    <svg aria-hidden="true" viewbox="0 0 1200 80" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,80 L0,35 Q100,35 200,38 T400,35 Q500,38 600,35 T800,38 Q900,35 1000,38 T1200,42 L1200,80 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
 </section>
@@ -750,22 +813,22 @@
         <form class="contact-form">
           <div class="contact-contact-form-field">
             <label for="contact-name" class="contact-contact-form-label">שם מלא</label>
-            <input type="text" id="contact-name" name="name" class="contact-contact-form-input" required placeholder="איך קוראים לך?">
+            <input type="text" id="contact-name" name="name" class="contact-contact-form-input" required="" placeholder="איך קוראים לך?"></input>
           </div>
           
           <div class="contact-contact-form-field">
             <label for="contact-email" class="contact-contact-form-label">דוא"ל</label>
-            <input type="email" id="contact-email" name="email" class="contact-contact-form-input" required placeholder="your@email.com">
+            <input type="email" id="contact-email" name="email" class="contact-contact-form-input" required="" placeholder="your@email.com"></input>
           </div>
           
           <div class="contact-contact-form-field">
             <label for="contact-phone" class="contact-contact-form-label">טלפון</label>
-            <input type="tel" id="contact-phone" name="phone" class="contact-contact-form-input" placeholder="050-1234567">
+            <input type="tel" id="contact-phone" name="phone" class="contact-contact-form-input" placeholder="050-1234567"></input>
           </div>
           
           <div class="contact-contact-form-field">
             <label for="contact-message" class="contact-contact-form-label">הודעה</label>
-            <textarea id="contact-message" name="message" class="contact-contact-form-textarea" rows="5" required placeholder="ספרו לנו על הצרכים שלכם: רמת לימוד, נושאים מעניינים, מטרות..."></textarea>
+            <textarea id="contact-message" name="message" class="contact-contact-form-textarea" rows="5" required="" placeholder="ספרו לנו על הצרכים שלכם: רמת לימוד, נושאים מעניינים, מטרות..."></textarea>
           </div>
           
           <button type="submit" class="contact-contact-form-submit zappy-editable" data-element-type="button" data-element-id="btn-1771328274067-31paem147" data-native-element="true">
@@ -775,7 +838,7 @@
         </form>
       </div><div class="contact-contact-form-reassurance">
         <div class="contact-contact-form-panel">
-          <h3 class="contact-contact-form-panel-title zappy-editable" style>מה קורה לאחר השליחה?</h3>
+          <h3 class="contact-contact-form-panel-title zappy-editable" style="">מה קורה לאחר השליחה?</h3>
           
           <div class="contact-contact-form-panel-item">
             <div class="contact-contact-form-panel-icon">
@@ -783,7 +846,7 @@
             </div>
             <div class="contact-contact-form-panel-text">
               <h4 class="contact-contact-form-panel-subtitle zappy-editable">תגובה מהירה</h4>
-              <p class="contact-contact-form-panel-desc zappy-editable" style>נחזור אליכם תוך 24 שעות בהקדם האפשרי.</p>
+              <p class="contact-contact-form-panel-desc zappy-editable" style="">נחזור אליכם תוך 24 שעות בהקדם האפשרי.</p>
             </div>
           </div>
           
@@ -815,14 +878,14 @@
   
   <!-- Diagonal Fade Divider -->
   <div class="contact-contact-form-divider-wrapper">
-    <svg aria-hidden="true" viewBox="0 0 1200 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewbox="0 0 1200 100" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <linearGradient id="diagonal-fade-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" style="stop-color:var(--bg-light);stop-opacity:1"/>
-          <stop offset="100%" style="stop-color:var(--bg-dark);stop-opacity:1"/>
-        </linearGradient>
+        <lineargradient id="diagonal-fade-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:var(--bg-light);stop-opacity:1"></stop>
+          <stop offset="100%" style="stop-color:var(--bg-dark);stop-opacity:1"></stop>
+        </lineargradient>
       </defs>
-      <path d="M0,100 L0,20 Q300,40 600,30 T1200,20 L1200,100 Z" fill="url(#diagonal-fade-gradient)"/>
+      <path d="M0,100 L0,20 Q300,40 600,30 T1200,20 L1200,100 Z" fill="url(#diagonal-fade-gradient)"></path>
     </svg>
   </div>
 </section>
@@ -831,8 +894,8 @@
   <div class="contact-contact-details-container">
     <!-- Blueprint line with tick marks -->
     <div class="contact-contact-details-blueprint-line">
-      <svg aria-hidden="true" viewBox="0 0 600 2" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-        <line x1="0" y1="1" x2="600" y2="1" stroke="var(--secondary)" stroke-width="1" opacity="0.5"/>
+      <svg aria-hidden="true" viewbox="0 0 600 2" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+        <line x1="0" y1="1" x2="600" y2="1" stroke="var(--secondary)" stroke-width="1" opacity="0.5"></line>
       </svg>
       <div class="contact-contact-details-tick-marks">
         <span></span>
@@ -891,7 +954,7 @@
   <div class="footer-container">
     <div class="footer-grid">
       <div class="footer-column footer-about">
-        <img src="/assets/business-logo.webp" alt="מתקל" class="logo">
+        <img src="/assets/business-logo.webp" alt="מתקל" class="logo"></img>
         <p class="footer-description">פלטפורמה מתקדמת לחינוך ולמידה דיגיטלית, המעניקה כלים וחוויות למידה חדשניות לתלמידים ומורים.</p>
         <div class="social-links">
           <a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -952,55 +1015,29 @@
   <script src="/script.js"></script>
 
     <div data-integration="accessibility:toolbar"></div>
-
+</body></html>
+    <script src="/script.js"></script>
     <script id="zappy-mobile-submenu-script">
     (function() {
       function initMobileSubmenuToggles() {
-        if (window.innerWidth > 768) {
-          document.querySelectorAll('.mobile-submenu-toggle').forEach(function(btn) { btn.remove(); });
-          document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) { menu.classList.remove('mobile-expanded'); });
-          return;
-        }
-        var items = document.querySelectorAll('.nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu)');
-        items.forEach(function(li) {
+        if (window.innerWidth > 768) { document.querySelectorAll('.mobile-submenu-toggle').forEach(function(b){b.remove();}); document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(m){m.classList.remove('mobile-expanded');}); return; }
+        document.querySelectorAll('.nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu)').forEach(function(li) {
           if (li.querySelector('.mobile-submenu-toggle')) return;
-          var submenu = li.querySelector('.sub-menu');
-          var parentLink = li.querySelector(':scope > a');
-          if (!submenu || !parentLink) return;
-          var toggleBtn = document.createElement('button');
-          toggleBtn.className = 'mobile-submenu-toggle';
-          toggleBtn.setAttribute('aria-label', 'Toggle submenu');
-          toggleBtn.setAttribute('type', 'button');
-          parentLink.insertAdjacentElement('afterend', toggleBtn);
-          toggleBtn.addEventListener('click', function(e) {
-            e.preventDefault(); e.stopPropagation();
-            document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) {
-              if (menu !== submenu) { menu.classList.remove('mobile-expanded'); var t = menu.parentElement.querySelector('.mobile-submenu-toggle'); if(t) t.classList.remove('expanded'); }
-            });
-            submenu.classList.toggle('mobile-expanded');
-            toggleBtn.classList.toggle('expanded');
+          var sm = li.querySelector('.sub-menu'), pl = li.querySelector(':scope > a') || li.querySelector(':scope > .menu-group-title');
+          if (!sm || !pl) return;
+          var tb = document.createElement('button'); tb.className = 'mobile-submenu-toggle'; tb.setAttribute('aria-label', 'Toggle submenu'); tb.setAttribute('type', 'button');
+          pl.insertAdjacentElement('afterend', tb);
+          tb.addEventListener('click', function(e) { e.preventDefault(); e.stopPropagation();
+            document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(m) { if (m !== sm) { m.classList.remove('mobile-expanded'); var t = m.parentElement.querySelector('.mobile-submenu-toggle'); if(t) t.classList.remove('expanded'); }});
+            sm.classList.toggle('mobile-expanded'); tb.classList.toggle('expanded');
           });
         });
       }
-      if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileSubmenuToggles); }
-      else { initMobileSubmenuToggles(); }
-      var resizeTimer; window.addEventListener('resize', function() { clearTimeout(resizeTimer); resizeTimer = setTimeout(initMobileSubmenuToggles, 250); });
-      // Re-initialize when mobile menu becomes visible (MutationObserver)
-      var observer = new MutationObserver(function(mutations) {
-        mutations.forEach(function(mutation) {
-          if (mutation.type === 'attributes') {
-            var target = mutation.target;
-            if (target.classList && (target.classList.contains('active') || target.classList.contains('open'))) {
-              setTimeout(initMobileSubmenuToggles, 100);
-            }
-          }
-        });
-      });
-      setTimeout(function() {
-        document.querySelectorAll('.mobile-menu, .nav-menu, #navMenu, nav').forEach(function(menu) {
-          observer.observe(menu, { attributes: true, attributeFilter: ['class', 'style'] });
-        });
-      }, 500);
+      if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileSubmenuToggles); } else { initMobileSubmenuToggles(); }
+      window.addEventListener('resize', function() { clearTimeout(window._mrt); window._mrt = setTimeout(initMobileSubmenuToggles, 250); });
+      var observer = new MutationObserver(function(mutations) { mutations.forEach(function(mutation) { if (mutation.type === 'attributes') { var target = mutation.target; if (target.classList && (target.classList.contains('active') || target.classList.contains('open'))) { setTimeout(initMobileSubmenuToggles, 100); } } }); });
+      setTimeout(function() { document.querySelectorAll('.mobile-menu, .nav-menu, #navMenu, nav').forEach(function(menu) { observer.observe(menu, { attributes: true, attributeFilter: ['class', 'style'] }); }); }, 500);
     })();
     </script>
-</body></html>
+</body>
+</html>
