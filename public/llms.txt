@@ -13,12 +13,12 @@ https://matcal.co.il/subjects
 ### Page
 https://matcal.co.il/course-purchases
 
-### Page
-https://matcal.co.il/solution
-
 ### מוצרים
 https://matcal.co.il/products
 המוצרים שלנו - מתקל
+
+### Page
+https://matcal.co.il/solution
 
 ### פרטי המוצר
 https://matcal.co.il/product/:slug
