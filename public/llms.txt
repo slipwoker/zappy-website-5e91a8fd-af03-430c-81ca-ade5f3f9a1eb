@@ -10,18 +10,18 @@ https://matcal.co.il
 ### Page
 https://matcal.co.il/subjects
 
-### מוצרים
+### Products
 https://matcal.co.il/products
 המוצרים שלנו - מתקל
 
 ### Page
 https://matcal.co.il/solution
 
-### פרטי המוצר
+### Product Detail
 https://matcal.co.il/product/:slug
 פרטי המוצר - מתקל
 
-### מוצרים
+### Category
 https://matcal.co.il/category/:slug
 מוצרים - מתקל
 
