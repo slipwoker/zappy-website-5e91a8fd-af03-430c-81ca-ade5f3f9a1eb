@@ -4,32 +4,32 @@
 
 ## Pages
 
-### Home
+### Page
 https://matcal.co.il
 
-### Subjects
+### Page
+https://matcal.co.il/course-purchases
+
+### Page
 https://matcal.co.il/subjects
 
-### Solution Format
+### Page
 https://matcal.co.il/solution
 
-### Contact
-https://matcal.co.il/contact
-
-### Products
+### מוצרים
 https://matcal.co.il/products
 המוצרים שלנו - מתקל
 
-### Product Detail
+### פרטי המוצר
 https://matcal.co.il/product/:slug
 פרטי המוצר - מתקל
 
-### Category
+### מוצרים
 https://matcal.co.il/category/:slug
 מוצרים - מתקל
 
 ### Page
-https://matcal.co.il/course-purchases
+https://matcal.co.il/contact
 
 ## Legal & Policy
 
