@@ -7,7 +7,7 @@
 ### Page
 https://matcal.co.il
 
-### מוצרים
+### תרגילים
 https://matcal.co.il/products
 המוצרים שלנו - מתקל
 
@@ -21,7 +21,7 @@ https://matcal.co.il/solution
 https://matcal.co.il/product/:slug
 פרטי המוצר - מתקל
 
-### מוצרים
+### תרגילים
 https://matcal.co.il/category/:slug
 מוצרים - מתקל
 
