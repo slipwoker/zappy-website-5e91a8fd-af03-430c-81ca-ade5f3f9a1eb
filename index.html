@@ -779,525 +779,592 @@
   </div>
 </section>
 
-<section style="position: relative; width: 100%; max-width: 100%; box-sizing: border-box; background: linear-gradient(180deg, #FFFFFF 0%, #F4F6FA 100%); overflow: visible; padding: 80px 0 120px;" data-zappy-section="true" class="section" id="zappy-section-1">
+<section style="position: relative; width: 100%; max-width: 100%; box-sizing: border-box; overflow: hidden; background: linear-gradient(135deg, #061A4D 0%, #0A2B6E 50%, #0D3B8F 100%); padding: 0; margin: 0;" data-zappy-section="true" class="section">
   <style>
-    .courses-section-wrapper {
-      direction: rtl;
+    .math-courses-section {
       font-family: var(--font-body);
+      direction: rtl;
+      color: var(--text-light);
     }
     
-    .courses-container {
-      max-width: var(--container-max);
-      margin: 0 auto;
-      padding: 0 var(--container-padding);
-    }
-    
-    .courses-header {
-      text-align: center;
-      margin-bottom: var(--spacing-xl);
+    .hero-courses {
       position: relative;
+      min-height: 75vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 120px 20px 80px;
+      overflow: hidden;
     }
     
-    .courses-header::before {
+    .hero-courses::before {
       content: '';
       position: absolute;
-      top: -40px;
-      right: 50%;
-      transform: translateX(50%);
-      width: 120px;
-      height: 6px;
+      top: 0;
+      right: 0;
+      width: 60%;
+      height: 100%;
       background: var(--gradient-secondary);
-      border-radius: var(--radius-full);
+      opacity: 0.15;
+      clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%);
+      z-index: 0;
     }
     
-    .courses-main-title {
+    .hero-content-courses {
+      position: relative;
+      z-index: 10;
+      text-align: center;
+      max-width: 900px;
+    }
+    
+    .hero-courses h2 {
       font-family: var(--font-heading);
-      font-size: clamp(2.5rem, 5vw, 4rem);
+      font-size: clamp(3rem, 8vw, 5.5rem);
       font-weight: 800;
-      color: var(--text-dark);
-      margin: 0 0 var(--spacing-sm);
-      background: var(--gradient-secondary);
+      margin: 0 0 30px;
+      background: linear-gradient(135deg, #FFFFFF 0%, #22D3EE 50%, #FFD166 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
-      letter-spacing: -0.02em;
+      line-height: 1.1;
+      animation: fadeInUp 0.8s ease-out;
     }
     
-    .courses-subtitle {
-      font-size: 1.25rem;
-      color: var(--text-muted);
-      margin: 0;
-      font-weight: 400;
+    .hero-courses p {
+      font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+      color: rgba(255, 255, 255, 0.9);
+      margin: 0 0 50px;
+      animation: fadeInUp 1s ease-out 0.2s backwards;
+    }
+    
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .courses-grid-wrapper {
+      position: relative;
+      padding: 80px 20px;
+      background: linear-gradient(180deg, rgba(6,26,77,0) 0%, rgba(18,24,38,0.8) 100%);
     }
     
     .courses-grid {
+      max-width: 1400px;
+      margin: 0 auto;
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: var(--spacing-lg);
-      margin-bottom: var(--spacing-xl);
+      gap: 40px;
       position: relative;
+      z-index: 5;
     }
     
     .course-card {
       position: relative;
-      background: white;
-      border-radius: var(--radius-lg);
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(20px);
+      border-radius: 24px;
       overflow: hidden;
-      box-shadow: var(--shadow-md);
-      transition: all var(--transition-base);
-      border: 2px solid transparent;
+      transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+      border: 1px solid rgba(255, 255, 255, 0.1);
     }
     
     .course-card:hover {
       transform: translateY(-12px) scale(1.02);
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
-      border-color: var(--primary);
-    }
-    
-    .course-card.featured {
-      border: 3px solid var(--accent);
-      box-shadow: 0 8px 40px rgba(255, 61, 141, 0.25);
-    }
-    
-    .course-card.featured::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 6px;
-      background: var(--gradient-primary);
-      z-index: 10;
-    }
-    
-    .course-image-wrapper {
-      position: relative;
-      height: 240px;
-      overflow: hidden;
-      background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
-    }
-    
-    .course-image-wrapper img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: transform var(--transition-slow);
-    }
-    
-    .course-card:hover .course-image-wrapper img {
-      transform: scale(1.15) rotate(2deg);
+      box-shadow: 0 30px 60px rgba(34, 211, 238, 0.3);
+      border-color: rgba(34, 211, 238, 0.5);
     }
     
     .course-badge {
       position: absolute;
       top: 20px;
       right: 20px;
-      background: var(--gradient-primary);
-      color: white;
+      background: var(--gradient-gold-accent);
+      color: var(--text-dark);
       padding: 8px 20px;
-      border-radius: var(--radius-full);
-      font-size: 0.875rem;
+      border-radius: 20px;
       font-weight: 700;
-      z-index: 5;
-      box-shadow: var(--shadow-lg);
-      animation: pulse-badge 2s ease-in-out infinite;
+      font-size: 0.85rem;
+      z-index: 10;
+      box-shadow: 0 4px 15px rgba(255, 209, 102, 0.4);
+      animation: pulse 2s ease-in-out infinite;
     }
     
-    @keyframes pulse-badge {
+    @keyframes pulse {
       0%, 100% { transform: scale(1); }
       50% { transform: scale(1.05); }
     }
     
+    .course-image-container {
+      position: relative;
+      height: 240px;
+      overflow: hidden;
+    }
+    
+    .course-image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+    
+    .course-card:hover .course-image-container img {
+      transform: scale(1.15) rotate(2deg);
+    }
+    
+    .course-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      background: linear-gradient(180deg, rgba(6,26,77,0) 0%, rgba(6,26,77,0.9) 100%);
+      z-index: 5;
+    }
+    
     .course-content {
-      padding: var(--spacing-lg);
+      padding: 30px;
+      position: relative;
     }
     
-    .course-title {
+    .course-card h3 {
       font-family: var(--font-heading);
-      font-size: 1.75rem;
+      font-size: 1.6rem;
       font-weight: 700;
-      color: var(--text-dark);
-      margin: 0 0 var(--spacing-sm);
+      margin: 0 0 15px;
+      color: #FFFFFF;
     }
     
-    .course-description {
-      color: var(--text-muted);
+    .course-card p {
       font-size: 0.95rem;
+      color: rgba(255, 255, 255, 0.75);
+      margin: 0 0 20px;
       line-height: 1.6;
-      margin: 0 0 var(--spacing-md);
     }
     
     .course-features {
       list-style: none;
       padding: 0;
-      margin: 0 0 var(--spacing-md);
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: var(--spacing-xs);
+      margin: 0 0 25px;
     }
     
     .course-features li {
       font-size: 0.9rem;
-      color: var(--text-dark);
-      padding: 8px 0;
-      display: flex;
-      align-items: center;
-      gap: 8px;
+      color: rgba(255, 255, 255, 0.85);
+      margin-bottom: 10px;
+      padding-right: 25px;
+      position: relative;
     }
     
-    .course-footer {
+    .course-features li::before {
+      content: '✓';
+      position: absolute;
+      right: 0;
+      color: #22D3EE;
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+    
+    .course-price-section {
       display: flex;
+      align-items: center;
       justify-content: space-between;
-      align-items: center;
-      padding-top: var(--spacing-md);
-      border-top: 2px solid var(--border-light);
+      padding-top: 20px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      margin-top: 20px;
     }
     
-    .course-price-wrapper {
+    .price-tag {
       display: flex;
       flex-direction: column;
-      gap: 4px;
     }
     
-    .course-price {
+    .price-amount {
       font-size: 2rem;
       font-weight: 800;
-      color: var(--primary);
-      font-family: var(--font-heading);
+      color: #FFD166;
+      line-height: 1;
     }
     
-    .course-price-label {
-      font-size: 0.875rem;
-      color: var(--text-muted);
+    .price-label {
+      font-size: 0.85rem;
+      color: rgba(255, 255, 255, 0.6);
+      margin-top: 5px;
     }
     
     .course-cta {
       background: var(--gradient-secondary);
-      color: white;
+      color: #FFFFFF;
       border: none;
       padding: 14px 32px;
-      border-radius: var(--radius-full);
-      font-weight: 700;
+      border-radius: 30px;
       font-size: 1rem;
+      font-weight: 700;
       cursor: pointer;
-      transition: all var(--transition-base);
-      box-shadow: var(--shadow-md);
-      font-family: var(--font-heading);
+      transition: all 0.3s ease;
+      box-shadow: 0 8px 20px rgba(34, 211, 238, 0.3);
     }
     
     .course-cta:hover {
-      transform: translateY(-2px);
-      box-shadow: var(--shadow-lg);
-      background: var(--gradient-primary);
+      transform: translateY(-3px);
+      box-shadow: 0 12px 30px rgba(34, 211, 238, 0.5);
     }
     
-    .features-showcase {
-      background: var(--gradient-dark-section);
-      border-radius: var(--radius-lg);
-      padding: var(--spacing-xl);
-      margin-bottom: var(--spacing-xl);
+    .benefits-section {
       position: relative;
-      overflow: hidden;
+      padding: 100px 20px;
+      background: linear-gradient(135deg, #121826 0%, #1A2332 100%);
     }
     
-    .features-showcase::before {
+    .benefits-content {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .benefits-section h3 {
+      font-family: var(--font-heading);
+      font-size: clamp(2.2rem, 5vw, 3.5rem);
+      font-weight: 800;
+      text-align: center;
+      margin: 0 0 70px;
+      background: linear-gradient(135deg, #FFFFFF 0%, #22D3EE 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 50px;
+    }
+    
+    .benefit-card {
+      text-align: center;
+      padding: 40px 30px;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 20px;
+      border: 2px solid transparent;
+      transition: all 0.4s ease;
+      position: relative;
+    }
+    
+    .benefit-card::before {
       content: '';
       position: absolute;
-      top: -50%;
-      left: -50%;
-      width: 200%;
-      height: 200%;
-      background: radial-gradient(circle, rgba(34, 211, 238, 0.1) 0%, transparent 70%);
-      animation: rotate-gradient 20s linear infinite;
+      inset: 0;
+      border-radius: 20px;
+      padding: 2px;
+      background: linear-gradient(135deg, #22D3EE, #7C3AED);
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      opacity: 0;
+      transition: opacity 0.4s ease;
     }
     
-    @keyframes rotate-gradient {
-      from { transform: rotate(0deg); }
-      to { transform: rotate(360deg); }
+    .benefit-card:hover::before {
+      opacity: 1;
     }
     
-    .features-showcase-title {
-      font-family: var(--font-heading);
-      font-size: 2.5rem;
-      font-weight: 800;
-      color: var(--text-light);
-      text-align: center;
-      margin: 0 0 var(--spacing-lg);
-      position: relative;
-      z-index: 2;
+    .benefit-card:hover {
+      transform: translateY(-10px);
+      background: rgba(255, 255, 255, 0.08);
     }
     
-    .features-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: var(--spacing-lg);
-      position: relative;
-      z-index: 2;
+    .benefit-icon {
+      font-size: 3.5rem;
+      margin-bottom: 25px;
+      display: inline-block;
+      transition: transform 0.4s ease;
     }
     
-    .feature-item {
-      background: rgba(255, 255, 255, 0.1);
-      backdrop-filter: blur(10px);
-      border-radius: var(--radius-md);
-      padding: var(--spacing-lg);
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      transition: all var(--transition-base);
+    .benefit-card:hover .benefit-icon {
+      transform: scale(1.2) rotate(5deg);
     }
     
-    .feature-item:hover {
-      background: rgba(255, 255, 255, 0.15);
-      transform: translateY(-8px);
-      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
-    }
-    
-    .feature-title {
+    .benefit-card h4 {
       font-family: var(--font-heading);
       font-size: 1.5rem;
       font-weight: 700;
-      color: var(--text-light);
-      margin: 0 0 var(--spacing-sm);
+      margin: 0 0 15px;
+      color: #FFFFFF;
     }
     
-    .feature-description {
-      color: rgba(255, 255, 255, 0.85);
+    .benefit-card p {
       font-size: 1rem;
-      line-height: 1.6;
+      color: rgba(255, 255, 255, 0.7);
+      line-height: 1.7;
       margin: 0;
     }
     
     .cta-section {
-      background: linear-gradient(135deg, var(--accent) 0%, var(--primary) 100%);
-      border-radius: var(--radius-lg);
-      padding: var(--spacing-xl);
-      text-align: center;
       position: relative;
+      padding: 100px 20px;
+      background: linear-gradient(135deg, #22D3EE 0%, #2563EB 50%, #7C3AED 100%);
+      text-align: center;
       overflow: hidden;
-      box-shadow: var(--shadow-lg);
     }
     
     .cta-section::before {
       content: '';
       position: absolute;
-      top: 0;
-      left: -100%;
-      width: 200%;
-      height: 100%;
-      background: var(--gradient-gold-shine);
-      animation: shine 3s ease-in-out infinite;
+      top: -50%;
+      right: -20%;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, transparent 70%);
+      border-radius: 50%;
+      animation: float 8s ease-in-out infinite;
     }
     
-    @keyframes shine {
-      0%, 100% { left: -100%; }
-      50% { left: 100%; }
+    @keyframes float {
+      0%, 100% { transform: translate(0, 0); }
+      50% { transform: translate(-50px, -50px); }
     }
     
-    .cta-title {
+    .cta-content {
+      position: relative;
+      z-index: 5;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .cta-section h3 {
       font-family: var(--font-heading);
-      font-size: 2rem;
+      font-size: clamp(2rem, 5vw, 3rem);
       font-weight: 800;
-      color: white;
-      margin: 0 0 var(--spacing-sm);
-      position: relative;
-      z-index: 2;
+      color: #FFFFFF;
+      margin: 0 0 25px;
+      text-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     }
     
-    .cta-description {
-      font-size: 1.125rem;
+    .cta-section p {
+      font-size: 1.2rem;
       color: rgba(255, 255, 255, 0.95);
-      margin: 0 0 var(--spacing-lg);
-      position: relative;
-      z-index: 2;
+      margin: 0 0 40px;
     }
     
     .cta-button {
-      background: white;
-      color: var(--accent);
-      border: none;
-      padding: 18px 48px;
-      border-radius: var(--radius-full);
+      display: inline-block;
+      background: #FFFFFF;
+      color: #2563EB;
+      padding: 20px 50px;
+      border-radius: 50px;
+      font-size: 1.2rem;
       font-weight: 800;
-      font-size: 1.125rem;
-      cursor: pointer;
-      transition: all var(--transition-base);
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-      font-family: var(--font-heading);
-      position: relative;
-      z-index: 2;
+      text-decoration: none;
+      transition: all 0.4s ease;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+      border: 3px solid transparent;
     }
     
     .cta-button:hover {
-      transform: translateY(-4px) scale(1.05);
-      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+      transform: translateY(-8px) scale(1.05);
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
+      border-color: #FFD166;
+      background: linear-gradient(135deg, #FFFFFF 0%, #FFD166 100%);
     }
     
     @media (max-width: 768px) {
+      .hero-courses {
+        padding-top: 100px;
+        min-height: 60vh;
+      }
+      
       .courses-grid {
         grid-template-columns: 1fr;
+        gap: 30px;
       }
       
-      .features-grid {
+      .benefits-grid {
         grid-template-columns: 1fr;
+        gap: 30px;
       }
       
-      .course-features {
-        grid-template-columns: 1fr;
+      .course-price-section {
+        flex-direction: column;
+        gap: 20px;
+        align-items: stretch;
       }
       
-      .courses-main-title {
-        font-size: 2rem;
-      }
-      
-      .cta-title {
-        font-size: 1.5rem;
+      .course-cta {
+        width: 100%;
       }
     }
   </style>
 
-  <div class="courses-section-wrapper">
-    <div class="courses-container">
-      <div class="courses-header">
-        <h2 class="courses-main-title">קורסי מתמטיקה ממוקדים</h2>
-        <p class="courses-subtitle">תבחרו את השאלון המתאים עבורכם ותתחילו להשקיע מזמנכם</p>
-      </div>
-
-      <div class="courses-grid zappy-preserve-css-grid" id="zappy-auto-grid-1771502383385-v8n9o3" data-zappy-auto-grid="true" data-original-item-width="496" data-original-gap="48px" style="grid-template-columns: 495.996px 496.006px;">
-        <div class="course-card featured" data-grid-item-index="0">
-          <div class="course-badge">מומלץ ביותר</div>
-          <div class="course-image-wrapper">
-            <div data-zappy-zoom-wrapper="true" data-element-id="img-1771502383317-jgpyepkj2" data-element-type="image" data-zappy-zoom-wrapper-width="491px" data-zappy-zoom-wrapper-height="301px" data-zappy-zoom-wrapper-width-mode="px" style="position: relative !important; overflow: hidden !important; width: 491px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 301px !important; display: block !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img alt="קורס מתמטיקה 4 יחידות" src="/assets/image-course-4-units-1771502494019-ztsowf.webp?v=1771502495216" data-placeholder="course-4-units" data-context="Advanced mathematics equations on blackboard with student studying, modern classroom environment, focused learning atmosphere" style="object-position: 100% 41%; display: block !important; object-fit: cover !important; width: 126.098% !important; height: 114.93% !important; margin: 0px !important; left: -26.0977% !important; top: -6.1213% !important; max-width: none !important; max-height: none !important; position: absolute !important" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1771502383317-jgpyepkj2" class="zappy-editable-image" data-zappy-zoom="1.1493" data-zappy-original-width="490.986328125" data-zappy-original-height="300.99609375" data-resize-handler-attached="true"></div>
-          </div>
-          <div class="course-content">
-            <h3 class="course-title">שאלון 481 - 4 יח"ל</h3>
-            <p class="course-description">קורס מתקדם להכנה לבגרות 4 יחידות - עם דגש על הבנה עמוקה ופתרון בעיות מורכבות</p>
-            <ul class="course-features">
-              <li>✓ 60 שיעורים מוקלטים</li>
-              <li>✓ תרגול אינטנסיבי</li>
-            </ul>
-            <div class="course-footer">
-              <div class="course-price-wrapper">
-                <div class="course-price">₪349</div>
-                <div class="course-price-label">לכל הקורס</div>
-              </div>
-              <button class="course-cta" data-element-type="button" data-element-id="btn-1771502383308-t469fks6x" data-native-element="true">לרכישה</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="course-card featured" data-grid-item-index="1">
-          <div class="course-badge">מומלץ ביותר</div>
-          <div class="course-image-wrapper">
-            <div data-zappy-zoom-wrapper="true" data-element-id="img-1771502383317-2zjhjdxkl" data-element-type="image" data-zappy-zoom-wrapper-width="491px" data-zappy-zoom-wrapper-height="301px" data-zappy-zoom-wrapper-width-mode="px" style="position: relative !important; overflow: hidden !important; width: 491px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 301px !important; display: block !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img alt="קורס מתמטיקה 4 יחידות" src="/assets/image-course-4-units-1771502690750-vjfbr6.webp?v=1771502692441" data-placeholder="course-4-units" data-context="Advanced mathematics equations on blackboard with student studying, modern classroom environment, focused learning atmosphere" style="object-position: 96% 37%; display: block !important; width: 126.095% !important; height: 114.93% !important; object-fit: cover !important; margin: 0px !important; left: -25.0514% !important; top: -5.5241% !important; max-width: none !important; max-height: none !important; position: absolute !important" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1771502383317-2zjhjdxkl" class="zappy-editable-image" data-zappy-zoom="1.1493" data-zappy-original-width="491.005859375" data-zappy-original-height="300.99609375" data-resize-handler-attached="true"></div>
-          </div>
-          <div class="course-content">
-            <h3 class="course-title">שאלון 482 - 4 יח"ל</h3>
-            <p class="course-description">קורס מתקדם להכנה לבגרות 4 יחידות - עם דגש על הבנה עמוקה ופתרון בעיות מורכבות</p>
-            <ul class="course-features">
-              <li>✓ 60 שיעורים מוקלטים</li>
-              <li>✓ תרגול אינטנסיבי</li>
-            </ul>
-            <div class="course-footer">
-              <div class="course-price-wrapper">
-                <div class="course-price">₪349</div>
-                <div class="course-price-label">לכל הקורס</div>
-              </div>
-              <button class="course-cta" data-element-type="button" data-element-id="btn-1771502383308-xeha53onb" data-native-element="true">לרכישה</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="course-card" data-grid-item-index="2">
-          <div class="course-badge">מתקדם</div>
-          <div class="course-image-wrapper">
-            <div data-zappy-zoom-wrapper="true" data-element-id="img-1771502383317-okub4k4oy" data-element-type="image" data-zappy-zoom-wrapper-width="492px" data-zappy-zoom-wrapper-height="301px" data-zappy-zoom-wrapper-width-mode="px" style="position: relative !important; overflow: hidden !important; width: 492px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 301px !important; display: block !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img alt="קורס מתמטיקה 5 יחידות" src="/assets/image-course-5-units-1771502997249-wp8pz5.webp?v=1771502998650" data-placeholder="course-5-units" data-context="Complex mathematical formulas and graphs on digital screen, high-tech learning environment, professional academic setting" style="object-position: 57% 100%; display: block !important; width: 142.34% !important; height: 130% !important; object-fit: cover !important; margin: 0px !important; left: -24.1341% !important; top: -30% !important; max-width: none !important; max-height: none !important; position: absolute !important" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1771502383317-okub4k4oy" class="zappy-editable-image" data-zappy-zoom="1.3" data-zappy-original-width="492.236328125" data-zappy-original-height="300.99609375" data-resize-handler-attached="true"></div>
-          </div>
-          <div class="course-content">
-            <h3 class="course-title">שאלון 581 - 5 יח"ל</h3>
-            <p class="course-description">קורס ברמה הגבוהה ביותר - הכנה מושלמת לבגרות 5 יחידות עם דגש על מצוינות</p>
-            <ul class="course-features">
-              <li>✓ 80 שיעורים מוקלטים</li>
-              <li>✓ בעיות אתגר מתקדמות</li>
-            </ul>
-            <div class="course-footer">
-              <div class="course-price-wrapper">
-                <div class="course-price">₪449</div>
-                <div class="course-price-label">לכל הקורס</div>
-              </div>
-              <button class="course-cta" data-element-type="button" data-element-id="btn-1771502383308-ocyczdld1" data-native-element="true">לרכישה</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="course-card" data-grid-item-index="3">
-          <div class="course-badge">מתקדם</div>
-          <div class="course-image-wrapper">
-            <div data-zappy-zoom-wrapper="true" data-element-id="img-1771502383317-yi45nngjc" data-element-type="image" data-zappy-zoom-wrapper-width="492px" data-zappy-zoom-wrapper-height="302px" data-zappy-zoom-wrapper-width-mode="px" style="position: relative !important; overflow: hidden !important; width: 492px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 302px !important; display: block !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img alt="קורס מתמטיקה 5 יחידות" src="/assets/image-course-5-units-1771503080224-bc9rup.webp?v=1771503081732" data-placeholder="course-5-units" data-context="Complex mathematical formulas and graphs on digital screen, high-tech learning environment, professional academic setting" style="object-position: 57% 63%; display: block !important; width: 105.913% !important; height: 100% !important; object-fit: fill !important; margin: 0px !important; left: -3.37042% !important; top: 0% !important; max-width: none !important; max-height: none !important; position: absolute !important" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1771502383317-yi45nngjc" class="zappy-editable-image" data-zappy-zoom="0.8" data-zappy-original-width="492.255859375" data-zappy-original-height="301.9921875" data-resize-handler-attached="true"></div>
-          </div>
-          <div class="course-content">
-            <h3 class="course-title">שאלון 571 - 5 יח"ל</h3>
-            <p class="course-description">קורס ברמה הגבוהה ביותר - הכנה מושלמת לבגרות 5 יחידות עם דגש על מצוינות</p>
-            <ul class="course-features">
-              <li>✓ 80 שיעורים מוקלטים</li>
-              <li>✓ בעיות אתגר מתקדמות</li>
-            </ul>
-            <div class="course-footer">
-              <div class="course-price-wrapper">
-                <div class="course-price">₪449</div>
-                <div class="course-price-label">לכל הקורס</div>
-              </div>
-              <button class="course-cta" data-element-type="button" data-element-id="btn-1771502383308-30cvo2qvx" data-native-element="true">לרכישה</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="course-card" style="" data-grid-item-index="4">
-          <div class="course-badge">מתקדם</div>
-          <div class="course-image-wrapper">
-            <div data-zappy-zoom-wrapper="true" data-element-id="img-1771502383317-lffibyma5" data-element-type="image" data-zappy-zoom-wrapper-width="492px" data-zappy-zoom-wrapper-height="296px" data-zappy-zoom-wrapper-width-mode="px" style="position: relative !important; overflow: hidden !important; width: 492px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 296px !important; display: block !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img alt="קורס מתמטיקה 5 יחידות" src="/assets/image-course-5-units-1771503538216-5s108e.webp?v=1771503539333" data-placeholder="course-5-units" data-context="Complex mathematical formulas and graphs on digital screen, high-tech learning environment, professional academic setting" style="object-position: 31% 90%; display: block !important; width: 107.674% !important; height: 100% !important; object-fit: cover !important; margin: 0px !important; left: -2.37889% !important; top: 0% !important; max-width: none !important; max-height: none !important; position: absolute !important" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1771502383317-lffibyma5" class="zappy-editable-image" data-zappy-zoom="1" data-zappy-original-width="492.236328125" data-zappy-original-height="295.99609375" data-resize-handler-attached="true"></div>
-          </div>
-          <div class="course-content">
-            <h3 class="course-title">שאלון 582 - 5 יח"ל</h3>
-            <p class="course-description">קורס ברמה הגבוהה ביותר - הכנה מושלמת לבגרות 5 יחידות עם דגש על מצוינות</p>
-            <ul class="course-features">
-              <li>✓ 80 שיעורים מוקלטים</li>
-              <li>✓ בעיות אתגר מתקדמות</li>
-            </ul>
-            <div class="course-footer" style="text-align: center !important; display: flex !important; justify-content: center !important; align-items: flex-start !important; width: 100% !important;">
-              <div class="course-price-wrapper">
-                <div class="course-price">₪449</div>
-                <div class="course-price-label" style="">לכל הקורס</div>
-              </div>
-              <button class="course-cta" data-element-type="button" data-element-id="btn-1771502383308-zdnz8k1a3" data-native-element="true" style="outline: none; border-color: transparent !important; color: rgb(255, 255, 255) !important; background-color: transparent !important; background-image: linear-gradient(135deg, rgb(240, 45, 149), rgb(181, 23, 158)) !important;">לרכישה</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="features-showcase">
-        <h3 class="features-showcase-title">מדוע לבחור בקורסים שלנו?</h3>
-        <div class="features-grid zappy-preserve-css-grid" id="zappy-auto-grid-1771502383395-puwwgg" data-zappy-auto-grid="true" data-original-item-width="272" data-original-gap="48px" style="display: grid; --zappy-grid-cols: repeat(3, minmax(0, 1fr));"><div class="feature-item" data-grid-item-index="0">
-            <h4 class="feature-title">יחס אישי</h4>
-            <p class="feature-description" style="">צוות מדהים בעל ניסיון בתחום המתמטי</p>
-          </div><div class="feature-item" data-grid-item-index="1">
-            <h4 class="feature-title">גישה לכל החיים</h4>
-            <p class="feature-description">רכישה חד פעמית עם גישה בלתי מוגבלת לכל החומרים</p>
-          </div><div class="feature-item" data-grid-item-index="2">
-            <h4 class="feature-title">תרגול מקיף</h4>
-            <p class="feature-description">מאות תרגילים ופתרונות מפורטים לכל נושא</p>
-          </div></div>
-      </div>
-
-      <div class="cta-section">
-        <h3 class="cta-title">לא בטוח איזה קורס מתאים לך?</h3>
-        <p class="cta-description">דבר איתנו ונעזור לך לבחור את הקורס המושלם עבורך</p>
-        <button class="cta-button" data-element-type="button" data-element-id="btn-1771502383308-2j7g2ufer" data-native-element="true">צור קשר לייעוץ חינם</button>
+  <div class="math-courses-section">
+    <!-- Hero Section -->
+    <div class="hero-courses">
+      <div class="hero-content-courses">
+        <h2>קורסי מתמטיקה ממוקדים</h2>
+        <p>תבחרו את השאלון המתאים עבורכם ותתחילו להשקיע מזמנכם</p>
       </div>
     </div>
-  </div>
 
-  <div class="divider-wrapper" style="position: absolute; bottom: 0; left: 0; width: 100%; height: 80px; pointer-events: none; z-index: 5;">
-    <svg viewBox="0 0 1200 80" preserveAspectRatio="none" style="display: block; width: 100%; height: 100%;">
-      <path d="M0,80 Q300,20 600,40 T1200,80 L1200,80 L0,80 Z" fill="#FFFFFF"></path>
-    </svg>
+    <!-- Courses Grid -->
+    <div class="courses-grid-wrapper">
+      <div class="courses-grid">
+        <!-- Course 1: 481 -->
+        <div class="course-card">
+          <div class="course-badge">מומלץ ביותר</div>
+          <div class="course-image-container">
+            <img alt="קורס מתמטיקה 4 יחידות" src="/assets/image-course-4-units-1771502494019-ztsowf.webp?v=1771502495216" data-placeholder="course-4-units" data-context="Advanced mathematics equations on blackboard with student studying, modern classroom environment, focused learning atmosphere" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" data-zappy-editable-image="true">
+            <div class="course-overlay"></div>
+          </div>
+          <div class="course-content">
+            <h3>שאלון 481 - 4 יח"ל</h3>
+            <p>קורס מתקדם להכנה לבגרות 4 יחידות - עם דגש על הבנה עמוקה ופתרון בעיות מורכבות</p>
+            <ul class="course-features">
+              <li>60 שיעורים מוקלטים</li>
+              <li>תרגול אינטנסיבי</li>
+            </ul>
+            <div class="course-price-section">
+              <div class="price-tag">
+                <div class="price-amount">₪349</div>
+                <div class="price-label">לכל הקורס</div>
+              </div>
+              <button class="course-cta">לרכישה</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 2: 482 -->
+        <div class="course-card">
+          <div class="course-badge">מומלץ ביותר</div>
+          <div class="course-image-container">
+            <img alt="קורס מתמטיקה 4 יחידות" src="/assets/image-course-4-units-1771502690750-vjfbr6.webp?v=1771502692441" data-placeholder="course-4-units" data-context="Advanced mathematics equations on blackboard with student studying, modern classroom environment, focused learning atmosphere" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" data-zappy-editable-image="true">
+            <div class="course-overlay"></div>
+          </div>
+          <div class="course-content">
+            <h3>שאלון 482 - 4 יח"ל</h3>
+            <p>קורס מתקדם להכנה לבגרות 4 יחידות - עם דגש על הבנה עמוקה ופתרון בעיות מורכבות</p>
+            <ul class="course-features">
+              <li>60 שיעורים מוקלטים</li>
+              <li>תרגול אינטנסיבי</li>
+            </ul>
+            <div class="course-price-section">
+              <div class="price-tag">
+                <div class="price-amount">₪349</div>
+                <div class="price-label">לכל הקורס</div>
+              </div>
+              <button class="course-cta">לרכישה</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 3: 581 -->
+        <div class="course-card">
+          <div class="course-badge">מתקדם</div>
+          <div class="course-image-container">
+            <img alt="קורס מתמטיקה 5 יחידות" src="/assets/image-course-5-units-1771502997249-wp8pz5.webp?v=1771502998650" data-placeholder="course-5-units" data-context="Complex mathematical formulas and graphs on digital screen, high-tech learning environment, professional academic setting" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" data-zappy-editable-image="true">
+            <div class="course-overlay"></div>
+          </div>
+          <div class="course-content">
+            <h3>שאלון 581 - 5 יח"ל</h3>
+            <p>קורס ברמה הגבוהה ביותר - הכנה מושלמת לבגרות 5 יחידות עם דגש על מצוינות</p>
+            <ul class="course-features">
+              <li>80 שיעורים מוקלטים</li>
+              <li>בעיות אתגר מתקדמות</li>
+            </ul>
+            <div class="course-price-section">
+              <div class="price-tag">
+                <div class="price-amount">₪449</div>
+                <div class="price-label">לכל הקורס</div>
+              </div>
+              <button class="course-cta">לרכישה</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 4: 571 -->
+        <div class="course-card">
+          <div class="course-badge">מתקדם</div>
+          <div class="course-image-container">
+            <img alt="קורס מתמטיקה 5 יחידות" src="/assets/image-course-5-units-1771503080224-bc9rup.webp?v=1771503081732" data-placeholder="course-5-units" data-context="Complex mathematical formulas and graphs on digital screen, high-tech learning environment, professional academic setting" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" data-zappy-editable-image="true">
+            <div class="course-overlay"></div>
+          </div>
+          <div class="course-content">
+            <h3>שאלון 571 - 5 יח"ל</h3>
+            <p>קורס ברמה הגבוהה ביותר - הכנה מושלמת לבגרות 5 יחידות עם דגש על מצוינות</p>
+            <ul class="course-features">
+              <li>80 שיעורים מוקלטים</li>
+              <li>בעיות אתגר מתקדמות</li>
+            </ul>
+            <div class="course-price-section">
+              <div class="price-tag">
+                <div class="price-amount">₪449</div>
+                <div class="price-label">לכל הקורס</div>
+              </div>
+              <button class="course-cta">לרכישה</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 5: 582 -->
+        <div class="course-card">
+          <div class="course-badge">מתקדם</div>
+          <div class="course-image-container">
+            <img alt="קורס מתמטיקה 5 יחידות" src="/assets/image-course-5-units-1771503538216-5s108e.webp?v=1771503539333" data-placeholder="course-5-units" data-context="Complex mathematical formulas and graphs on digital screen, high-tech learning environment, professional academic setting" style="width: 100%; height: 100%; object-fit: cover; object-position: center;" data-zappy-editable-image="true">
+            <div class="course-overlay"></div>
+          </div>
+          <div class="course-content">
+            <h3>שאלון 582 - 5 יח"ל</h3>
+            <p>קורס ברמה הגבוהה ביותר - הכנה מושלמת לבגרות 5 יחידות עם דגש על מצוינות</p>
+            <ul class="course-features">
+              <li>80 שיעורים מוקלטים</li>
+              <li>בעיות אתגר מתקדמות</li>
+            </ul>
+            <div class="course-price-section">
+              <div class="price-tag">
+                <div class="price-amount">₪449</div>
+                <div class="price-label">לכל הקורס</div>
+              </div>
+              <button class="course-cta">לרכישה</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Benefits Section -->
+    <div class="benefits-section">
+      <div class="benefits-content">
+        <h3>מדוע לבחור בקורסים שלנו?</h3>
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon">👨‍🏫</div>
+            <h4>יחס אישי</h4>
+            <p>צוות מדהים בעל ניסיון בתחום המתמטי</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">♾️</div>
+            <h4>גישה לכל החיים</h4>
+            <p>רכישה חד פעמית עם גישה בלתי מוגבלת לכל החומרים</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">📝</div>
+            <h4>תרגול מקיף</h4>
+            <p>מאות תרגילים ופתרונות מפורטים לכל נושא</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div class="cta-section">
+      <div class="cta-content">
+        <h3>לא בטוח איזה קורס מתאים לך?</h3>
+        <p>דבר איתנו ונעזור לך לבחור את הקורס המושלם עבורך</p>
+        <a href="#" class="cta-button">צור קשר לייעוץ חינם</a>
+      </div>
+    </div>
   </div>
 </section>
 
