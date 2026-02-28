@@ -29,6 +29,9 @@ https://matcal.co.il/category/:slug
 https://matcal.co.il/course-purchases
 
 ### Page
+https://matcal.co.il/menu-group-1772322287258
+
+### Page
 https://matcal.co.il/contact
 
 ## Legal & Policy
