@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://matcal.co.il/sitemap.xml
+Sitemap: https://example.com/sitemap.xml
