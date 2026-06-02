@@ -1,4 +1,6 @@
-# Business — Generative Engine Optimization Map
+# מתקל — Generative Engine Optimization Map
+
+> A חינוך ולמידה דיגיטלית business.
 
 ---
 
@@ -51,12 +53,309 @@ Information about WCAG compliance and accessibility features.
 
 ---
 
-# Business Context (for LLM understanding)
+## Products
 
-## About Business
+**Total active products: 35**
+
+### שאלה מס' 5- נגזרת שורש מכפלה ומנה
+https://example.com/product/shalh-ms-5-ngzrt-shvrsh-mkplh-vmnh-e8wqld
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: פונקציות
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770758833985-g6ehjf.webp
+
+### שאלה מס' 4- אינטגרל מסוים של פולינום
+https://example.com/product/shalh-ms-4-ayntgrl-msvym-shl-pvlynvm-lzq0ub
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: פונקציות
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770758507576-0ybwms.webp
+
+### שאלה מס' 3- אינטגרל של מכפלה או מנה
+https://example.com/product/shalh-ms-3-ayntgrl-shl-mkplh-av-mnh-arptzh
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: פונקציות
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770757931955-r5vgik.webp
+
+### שאלה מס' 5- מעגל(בעיות עם דמיון משולשים)
+https://example.com/product/shalh-ms-5-maglbayvt-am-dmyvn-mshvlshym-vyqhbz
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: גיאומטריה
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770757117774-43oer.webp
+
+### שאלה מס' 4- מעגל(בעיות עם פיתגורס)
+https://example.com/product/shalh-ms-4-maglbayvt-am-pytgvrs-7qa4qo
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: גיאומטריה
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770756906712-x4cyhc.webp
+
+### שאלה מס' 3- יחסי שטחים במשולשים דומים
+https://example.com/product/shalh-ms-3-ychsy-shtchym-bmshvlshym-dvmym-k6w97l
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: גיאומטריה
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770756675350-mutryv.webp
+
+### שאלה מס' 2- גיאומטריה קלאסית
+https://example.com/product/shalh-ms-2-gyavmtryh-klasyt-mhv52d
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: גיאומטריה
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770749258546-9l6zj.webp
+
+### שאלה מס' 1- גיאומטריה קלאסית
+https://example.com/product/shalh-ms-1-gyavmtryh-klasyt-flj7mn
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: גיאומטריה
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770749023154-jzeot.webp
+
+### שאלה מס' 5- בעיית תנועה עם דרך חזור
+https://example.com/product/shalh-ms-5-bayyt-tnvah-am-drk-chzvr-i3w2hi
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: בעיות תנועה
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770748567610-j4d3sy.webp
+
+### שאלה מס' 4- בעיית תנועה עם פיתגורס
+https://example.com/product/shalh-ms-4-bayyt-tnvah-am-pytgvrs-4dp0z4
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: בעיות תנועה
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770748433652-017hv.webp
+
+### שאלה מס' 3- בעיית תנועה עם תקלה באמצע הדרך
+https://example.com/product/shalh-ms-3-bayyt-tnvah-am-tklh-bamtsa-hdrk-er3luh
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: בעיות תנועה
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770748243015-dm8gsb.webp
+
+### שאלה מס' 2- בעיית תנועה בדרכים
+https://example.com/product/shalh-ms-2-bayyt-tnvah-bdrkym-vo8jyb
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: בעיות תנועה
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770748048405-7oino.webp
+
+### שאלה מס' 1- בעיית תנועה עם פיתגורס
+https://example.com/product/shalh-ms-1-bayyt-tnvah-am-pytgvrs-mcbklt
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: בעיות תנועה
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770747792652-a5ov7a.webp
+
+### שאלה מס' 5- פתירת מערכת משוואות עם 2 נעלמים
+https://example.com/product/shalh-ms-5-ptyrt-markt-mshvvavt-am-2-nalmym-vdubrd
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: אלגברה
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770747520893-i6t56o.webp
+
+### שאלה מס' 4- טכניקה אלגברית
+https://example.com/product/shalh-ms-4-tknykh-algbryt-trsbpe
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: אלגברה
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770747269737-n1os7.webp
+
+### שאלה מס' 3- טכניקה אלגברית
+https://example.com/product/shalh-ms-3-tknykh-algbryt-mobmm5
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: אלגברה
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770747127237-d22nyg.webp
+
+### שאלה מס' 2- פתירת משוואה(נוסחת השורשים)
+https://example.com/product/shalh-ms-2-ptyrt-mshvvahnvscht-hshvrshym-ajo0v2
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: אלגברה
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770746997321-bcpvubm.webp
+
+### שאלה מס' 1- פתירת משוואה ממעלה 2
+https://example.com/product/shalh-ms-1-ptyrt-mshvvah-mmalh-2-9lgye1
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: אלגברה
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770746815867-uc142.webp
+
+### שאלה מס' 5- סדרה הנדסית
+https://example.com/product/shalh-ms-5-sdrh-hndsyt-1g0ojx
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: סדרות
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770746194646-mkv0b.webp
+
+### שאלה מס' 4- סדרה הנדסית
+https://example.com/product/shalh-ms-4-sdrh-hndsyt-0jgsy0
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: סדרות
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770745820355-zaq68e.webp
+
+### שאלה מס' 3- סדרה הנדסית
+https://example.com/product/shalh-ms-3-sdrh-hndsyt-d3duhu
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: סדרות
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770745640705-70tqns.webp
+
+### שאלה מס' 2- סדרה חשבונית
+https://example.com/product/shalh-ms-2-sdrh-chshbvnyt-rhrvek
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: סדרות
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770745397262-bjpolo.webp
+
+### שאלה מס' 1- סדרה חשבונית
+https://example.com/product/shalh-ms-1-sdrh-chshbvnyt-u0tuw7
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: סדרות
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770745204168-dj1tt4.webp
+
+### שאלה מס' 5- חדו"א הקשר בין גרף הפונקציה המקורית לגרף הנגזרת
+https://example.com/product/shalh-ms-5-chdva-hkshr-byn-grp-hpvnktsyh-hmkvryt-lgrp-hngzrt-15xy6r
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: חשבון דיפרנציאלי
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770734933705-w7zard.webp
+
+###  שאלה מס' 4- חדו"א חקירת פונקציה מורכבת תרגיל מסכם
+https://example.com/product/shalh-ms-4-chdva-chkyrt-pvnktsyh-mvrkbt-trgyl-mskm-8rspak
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: חשבון דיפרנציאלי
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770734760517-ho6z4o.webp
+
+### שאלה מס' 3- חדו"א חקירת פונקציה רציונאלית
+https://example.com/product/shalh-ms-3-chdva-chkyrt-pvnktsyh-rtsyvnalyt-o0y8z2
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: חשבון דיפרנציאלי
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770734660195-q5r.webp
+
+### שאלה מס' 2- חדו"א חקירת פונקציה רציונאלית
+https://example.com/product/shalh-ms-2-chdva-chkyrt-pvnktsyh-rtsyvnalyt-5galza
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: חשבון דיפרנציאלי
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770734491373-wi2x5b.webp
+
+### שאלה מס' 1- חדו"א חקירת פונקציה רציונאלית
+https://example.com/product/shalh-ms-1-chdva-chkyrt-pvnktsyh-rtsyvnalyt-3jzkrd
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: חשבון דיפרנציאלי
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770734379605-9zmo0p.webp
+
+### שאלה מס' 5- טריגונומטריה עם משולש
+https://example.com/product/shalh-ms-5-trygvnvmtryh-am-mshvlsh-977s3n
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: טריגונומטריה
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770733865231-8mem9.webp
+
+### שאלה מס' 4- טריגונומטריה עם משולש
+https://example.com/product/shalh-ms-4-trygvnvmtryh-am-mshvlsh-3omtbg
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: טריגונומטריה
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770733928934-vp4xzb.webp
+
+### שאלה מס' 3- טריגונומטריה עם משולש
+https://example.com/product/shalh-ms-3-trygvnvmtryh-am-mshvlsh-gr4080
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: טריגונומטריה
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770733986230-sfgt57.webp
+
+### שאלה מס' 2- טריגונומטריה עם משולש משפט הקוסינוסים
+https://example.com/product/shalh-ms-2-trygvnvmtryh-am-mshvlsh-mshpt-hkvsynvsym-dsgcxc
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: טריגונומטריה
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770734051770-7nf26.webp
+
+### שאלה מס' 1- טריגונומטריה עם משולש
+https://example.com/product/shalh-ms-1-trygvnvmtryh-am-mshvlsh-6vfgmv
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: טריגונומטריה
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770734149036-brqe8j.webp
+
+### שאלה מס' 2- אינטגרל לא מסוים
+https://example.com/product/shalh-ms-2-ayntgrl-la-msvym-9ooh99
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: פונקציות
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770757391814-7tbbdb.webp
+
+### שאלה מס' 1- אינטגרלים(בסיס)
+https://example.com/product/shalh-ms-1-ayntgrlymbsys-aqguxx
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: פונקציות
+- Description: אתם מוזמנים לפתור את השאלה הבאה: לפתרון המלא כנסו!
+- Image: https://example.com/assets/product-1770757608409-jlcu9.webp
+
 ---
 
-# Additional Resources
+# Business Context (for LLM understanding)
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+## About מתקל
+מתקל is a business in the חינוך ולמידה דיגיטלית industry.
+
+## Target Audience
+תלמידים וסטודנטים
+
+## Industry
+חינוך ולמידה דיגיטלית
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml

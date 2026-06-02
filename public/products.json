@@ -1,0 +1,849 @@
+{
+  "@context": "https://schema.org",
+  "generated_at": "2026-06-02T18:17:10.857Z",
+  "base_url": "https://example.com",
+  "currency": "ILS",
+  "count": 35,
+  "products": [
+    {
+      "id": "e29d650f-a9a7-46a9-80af-57891dfb08f0",
+      "slug": "shalh-ms-5-ngzrt-shvrsh-mkplh-vmnh-e8wqld",
+      "name": "שאלה מס' 5- נגזרת שורש מכפלה ומנה",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\">לפתרון המלא כנסו!</p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770758833985-g6ehjf.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-5-ngzrt-shvrsh-mkplh-vmnh-e8wqld",
+      "categories": [
+        "פונקציות"
+      ],
+      "updated_at": "2026-02-19T11:43:22.675Z"
+    },
+    {
+      "id": "420abdd7-de2a-43b9-b451-368682cfaac5",
+      "slug": "shalh-ms-4-ayntgrl-msvym-shl-pvlynvm-lzq0ub",
+      "name": "שאלה מס' 4- אינטגרל מסוים של פולינום",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770758507576-0ybwms.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-4-ayntgrl-msvym-shl-pvlynvm-lzq0ub",
+      "categories": [
+        "פונקציות"
+      ],
+      "updated_at": "2026-02-19T11:43:14.575Z"
+    },
+    {
+      "id": "73e80e03-ec58-44b8-8325-319fd90090e8",
+      "slug": "shalh-ms-3-ayntgrl-shl-mkplh-av-mnh-arptzh",
+      "name": "שאלה מס' 3- אינטגרל של מכפלה או מנה",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770757931955-r5vgik.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-3-ayntgrl-shl-mkplh-av-mnh-arptzh",
+      "categories": [
+        "פונקציות"
+      ],
+      "updated_at": "2026-02-19T11:43:06.820Z"
+    },
+    {
+      "id": "2e3c8dfe-82a8-499e-b6ea-09be8aba6a32",
+      "slug": "shalh-ms-5-maglbayvt-am-dmyvn-mshvlshym-vyqhbz",
+      "name": "שאלה מס' 5- מעגל(בעיות עם דמיון משולשים)",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770757117774-43oer.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-5-maglbayvt-am-dmyvn-mshvlshym-vyqhbz",
+      "categories": [
+        "גיאומטריה"
+      ],
+      "updated_at": "2026-02-19T11:42:58.409Z"
+    },
+    {
+      "id": "e124c76f-4e21-4c25-b3f7-86dca49be926",
+      "slug": "shalh-ms-4-maglbayvt-am-pytgvrs-7qa4qo",
+      "name": "שאלה מס' 4- מעגל(בעיות עם פיתגורס)",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770756906712-x4cyhc.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-4-maglbayvt-am-pytgvrs-7qa4qo",
+      "categories": [
+        "גיאומטריה"
+      ],
+      "updated_at": "2026-02-19T11:42:49.016Z"
+    },
+    {
+      "id": "a0bef4d7-b284-4e90-b2e2-4fa4662baeb2",
+      "slug": "shalh-ms-3-ychsy-shtchym-bmshvlshym-dvmym-k6w97l",
+      "name": "שאלה מס' 3- יחסי שטחים במשולשים דומים",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770756675350-mutryv.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-3-ychsy-shtchym-bmshvlshym-dvmym-k6w97l",
+      "categories": [
+        "גיאומטריה"
+      ],
+      "updated_at": "2026-02-19T11:42:39.274Z"
+    },
+    {
+      "id": "d64e0b6a-44e1-4536-b3b4-c64d24dfa198",
+      "slug": "shalh-ms-2-gyavmtryh-klasyt-mhv52d",
+      "name": "שאלה מס' 2- גיאומטריה קלאסית",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p><p><br></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770749258546-9l6zj.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-2-gyavmtryh-klasyt-mhv52d",
+      "categories": [
+        "גיאומטריה"
+      ],
+      "updated_at": "2026-02-10T18:48:18.670Z"
+    },
+    {
+      "id": "b2f29b52-3dfa-435b-b2a8-c17a0fc18d38",
+      "slug": "shalh-ms-1-gyavmtryh-klasyt-flj7mn",
+      "name": "שאלה מס' 1- גיאומטריה קלאסית",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770749023154-jzeot.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-1-gyavmtryh-klasyt-flj7mn",
+      "categories": [
+        "גיאומטריה"
+      ],
+      "updated_at": "2026-02-19T11:42:29.547Z"
+    },
+    {
+      "id": "9092616b-8d74-4e9b-9ecf-6b930041c45b",
+      "slug": "shalh-ms-5-bayyt-tnvah-am-drk-chzvr-i3w2hi",
+      "name": "שאלה מס' 5- בעיית תנועה עם דרך חזור",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770748567610-j4d3sy.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-5-bayyt-tnvah-am-drk-chzvr-i3w2hi",
+      "categories": [
+        "בעיות תנועה"
+      ],
+      "updated_at": "2026-02-19T11:42:18.969Z"
+    },
+    {
+      "id": "28a41fcb-4ce7-42d1-8934-61e119e74701",
+      "slug": "shalh-ms-4-bayyt-tnvah-am-pytgvrs-4dp0z4",
+      "name": "שאלה מס' 4- בעיית תנועה עם פיתגורס",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770748433652-017hv.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-4-bayyt-tnvah-am-pytgvrs-4dp0z4",
+      "categories": [
+        "בעיות תנועה"
+      ],
+      "updated_at": "2026-02-19T11:42:09.376Z"
+    },
+    {
+      "id": "7618b8bf-8c91-446f-9731-e946957d7420",
+      "slug": "shalh-ms-3-bayyt-tnvah-am-tklh-bamtsa-hdrk-er3luh",
+      "name": "שאלה מס' 3- בעיית תנועה עם תקלה באמצע הדרך",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770748243015-dm8gsb.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-3-bayyt-tnvah-am-tklh-bamtsa-hdrk-er3luh",
+      "categories": [
+        "בעיות תנועה"
+      ],
+      "updated_at": "2026-02-19T11:41:58.584Z"
+    },
+    {
+      "id": "b4428ec6-e37a-40a6-96f4-852c4301429b",
+      "slug": "shalh-ms-2-bayyt-tnvah-bdrkym-vo8jyb",
+      "name": "שאלה מס' 2- בעיית תנועה בדרכים",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770748048405-7oino.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-2-bayyt-tnvah-bdrkym-vo8jyb",
+      "categories": [
+        "בעיות תנועה"
+      ],
+      "updated_at": "2026-02-19T11:41:46.587Z"
+    },
+    {
+      "id": "a7d8169b-e4b4-47b8-b8c0-6391402ec680",
+      "slug": "shalh-ms-1-bayyt-tnvah-am-pytgvrs-mcbklt",
+      "name": "שאלה מס' 1- בעיית תנועה עם פיתגורס",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770747792652-a5ov7a.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-1-bayyt-tnvah-am-pytgvrs-mcbklt",
+      "categories": [
+        "בעיות תנועה"
+      ],
+      "updated_at": "2026-02-19T11:41:36.174Z"
+    },
+    {
+      "id": "dd612c5f-bc6f-4eda-9741-32ae4a746834",
+      "slug": "shalh-ms-5-ptyrt-markt-mshvvavt-am-2-nalmym-vdubrd",
+      "name": "שאלה מס' 5- פתירת מערכת משוואות עם 2 נעלמים",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p><p><br></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770747520893-i6t56o.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-5-ptyrt-markt-mshvvavt-am-2-nalmym-vdubrd",
+      "categories": [
+        "אלגברה"
+      ],
+      "updated_at": "2026-02-10T18:19:10.300Z"
+    },
+    {
+      "id": "e71382f5-a310-4d78-8d96-859b7932ccff",
+      "slug": "shalh-ms-4-tknykh-algbryt-trsbpe",
+      "name": "שאלה מס' 4- טכניקה אלגברית",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770747269737-n1os7.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-4-tknykh-algbryt-trsbpe",
+      "categories": [
+        "אלגברה"
+      ],
+      "updated_at": "2026-02-19T11:41:03.422Z"
+    },
+    {
+      "id": "22e41a1a-9e95-4847-82b3-934b7b1d15a1",
+      "slug": "shalh-ms-3-tknykh-algbryt-mobmm5",
+      "name": "שאלה מס' 3- טכניקה אלגברית",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770747127237-d22nyg.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-3-tknykh-algbryt-mobmm5",
+      "categories": [
+        "אלגברה"
+      ],
+      "updated_at": "2026-02-19T11:40:52.771Z"
+    },
+    {
+      "id": "d963d32f-1a78-4d27-91b4-200baa2d5ed3",
+      "slug": "shalh-ms-2-ptyrt-mshvvahnvscht-hshvrshym-ajo0v2",
+      "name": "שאלה מס' 2- פתירת משוואה(נוסחת השורשים)",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770746997321-bcpvubm.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-2-ptyrt-mshvvahnvscht-hshvrshym-ajo0v2",
+      "categories": [
+        "אלגברה"
+      ],
+      "updated_at": "2026-02-19T11:40:40.695Z"
+    },
+    {
+      "id": "fdf1e083-4ed3-4f0d-a3cb-059f5d48a580",
+      "slug": "shalh-ms-1-ptyrt-mshvvah-mmalh-2-9lgye1",
+      "name": "שאלה מס' 1- פתירת משוואה ממעלה 2",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770746815867-uc142.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-1-ptyrt-mshvvah-mmalh-2-9lgye1",
+      "categories": [
+        "אלגברה"
+      ],
+      "updated_at": "2026-02-19T11:40:25.581Z"
+    },
+    {
+      "id": "30585ae7-5765-4954-8801-89a888684545",
+      "slug": "shalh-ms-5-sdrh-hndsyt-1g0ojx",
+      "name": "שאלה מס' 5- סדרה הנדסית",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"/assets/_________5_______________________-1771288179984-bkx0e9.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770746194646-mkv0b.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-5-sdrh-hndsyt-1g0ojx",
+      "categories": [
+        "סדרות"
+      ],
+      "updated_at": "2026-02-19T11:39:47.910Z"
+    },
+    {
+      "id": "fb3389e0-3568-4c58-8334-991c67efd868",
+      "slug": "shalh-ms-4-sdrh-hndsyt-0jgsy0",
+      "name": "שאלה מס' 4- סדרה הנדסית",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"/assets/_________4_______________________-1771288153720-kmpqew.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770745820355-zaq68e.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-4-sdrh-hndsyt-0jgsy0",
+      "categories": [
+        "סדרות"
+      ],
+      "updated_at": "2026-02-17T00:29:18.612Z"
+    },
+    {
+      "id": "83a82add-30ee-43b8-98d2-81cb8ab32808",
+      "slug": "shalh-ms-3-sdrh-hndsyt-d3duhu",
+      "name": "שאלה מס' 3- סדרה הנדסית",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"/assets/_________3_______________________-1771288120346-n35ei7.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770745640705-70tqns.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-3-sdrh-hndsyt-d3duhu",
+      "categories": [
+        "סדרות"
+      ],
+      "updated_at": "2026-02-19T11:39:31.239Z"
+    },
+    {
+      "id": "ea94ee0f-735e-4913-8cdc-0254a71a3f01",
+      "slug": "shalh-ms-2-sdrh-chshbvnyt-rhrvek",
+      "name": "שאלה מס' 2- סדרה חשבונית",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"/assets/_________2_________________________-1771288083452-hc09ji.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770745397262-bjpolo.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-2-sdrh-chshbvnyt-rhrvek",
+      "categories": [
+        "סדרות"
+      ],
+      "updated_at": "2026-02-19T11:39:18.200Z"
+    },
+    {
+      "id": "c58dcb5d-a3f3-422d-9ba9-975c0fc2a651",
+      "slug": "shalh-ms-1-sdrh-chshbvnyt-u0tuw7",
+      "name": "שאלה מס' 1- סדרה חשבונית",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"/assets/_________1_________________________-1771289462488-1mh95c.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770745204168-dj1tt4.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-1-sdrh-chshbvnyt-u0tuw7",
+      "categories": [
+        "סדרות"
+      ],
+      "updated_at": "2026-02-19T11:38:57.678Z"
+    },
+    {
+      "id": "90bc8c92-6f64-4cd7-9bec-09132c066680",
+      "slug": "shalh-ms-5-chdva-hkshr-byn-grp-hpvnktsyh-hmkvryt-lgrp-hngzrt-15xy6r",
+      "name": "שאלה מס' 5- חדו\"א הקשר בין גרף הפונקציה המקורית לגרף הנגזרת",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770734933705-w7zard.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-5-chdva-hkshr-byn-grp-hpvnktsyh-hmkvryt-lgrp-hngzrt-15xy6r",
+      "categories": [
+        "חשבון דיפרנציאלי"
+      ],
+      "updated_at": "2026-02-19T11:38:43.858Z"
+    },
+    {
+      "id": "58442d43-fb95-458e-821a-05041698ca9c",
+      "slug": "shalh-ms-4-chdva-chkyrt-pvnktsyh-mvrkbt-trgyl-mskm-8rspak",
+      "name": " שאלה מס' 4- חדו\"א חקירת פונקציה מורכבת תרגיל מסכם",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770734760517-ho6z4o.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-4-chdva-chkyrt-pvnktsyh-mvrkbt-trgyl-mskm-8rspak",
+      "categories": [
+        "חשבון דיפרנציאלי"
+      ],
+      "updated_at": "2026-02-19T11:38:28.362Z"
+    },
+    {
+      "id": "0259344c-1f8a-425a-85ba-eaf0b1101641",
+      "slug": "shalh-ms-3-chdva-chkyrt-pvnktsyh-rtsyvnalyt-o0y8z2",
+      "name": "שאלה מס' 3- חדו\"א חקירת פונקציה רציונאלית",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770734660195-q5r.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-3-chdva-chkyrt-pvnktsyh-rtsyvnalyt-o0y8z2",
+      "categories": [
+        "חשבון דיפרנציאלי"
+      ],
+      "updated_at": "2026-02-10T14:44:27.903Z"
+    },
+    {
+      "id": "8a118a8e-bf6d-4d01-99c1-e2e5bc376c17",
+      "slug": "shalh-ms-2-chdva-chkyrt-pvnktsyh-rtsyvnalyt-5galza",
+      "name": "שאלה מס' 2- חדו\"א חקירת פונקציה רציונאלית",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770734491373-wi2x5b.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-2-chdva-chkyrt-pvnktsyh-rtsyvnalyt-5galza",
+      "categories": [
+        "חשבון דיפרנציאלי"
+      ],
+      "updated_at": "2026-02-19T11:38:11.427Z"
+    },
+    {
+      "id": "0f922006-b44f-485a-81ba-e7d893ff580d",
+      "slug": "shalh-ms-1-chdva-chkyrt-pvnktsyh-rtsyvnalyt-3jzkrd",
+      "name": "שאלה מס' 1- חדו\"א חקירת פונקציה רציונאלית",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770734379605-9zmo0p.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-1-chdva-chkyrt-pvnktsyh-rtsyvnalyt-3jzkrd",
+      "categories": [
+        "חשבון דיפרנציאלי"
+      ],
+      "updated_at": "2026-02-19T11:37:57.569Z"
+    },
+    {
+      "id": "5d943ba0-a7a3-44db-82b1-2099a8867fae",
+      "slug": "shalh-ms-5-trygvnvmtryh-am-mshvlsh-977s3n",
+      "name": "שאלה מס' 5- טריגונומטריה עם משולש",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770733865231-8mem9.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-5-trygvnvmtryh-am-mshvlsh-977s3n",
+      "categories": [
+        "טריגונומטריה"
+      ],
+      "updated_at": "2026-02-19T11:37:43.540Z"
+    },
+    {
+      "id": "38e09de7-7a2f-492e-8664-e5c749d6c1bd",
+      "slug": "shalh-ms-4-trygvnvmtryh-am-mshvlsh-3omtbg",
+      "name": "שאלה מס' 4- טריגונומטריה עם משולש",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770733928934-vp4xzb.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-4-trygvnvmtryh-am-mshvlsh-3omtbg",
+      "categories": [
+        "טריגונומטריה"
+      ],
+      "updated_at": "2026-02-19T11:37:30.079Z"
+    },
+    {
+      "id": "883d63c2-5a44-4859-b330-6111c24080c2",
+      "slug": "shalh-ms-3-trygvnvmtryh-am-mshvlsh-gr4080",
+      "name": "שאלה מס' 3- טריגונומטריה עם משולש",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770733986230-sfgt57.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-3-trygvnvmtryh-am-mshvlsh-gr4080",
+      "categories": [
+        "טריגונומטריה"
+      ],
+      "updated_at": "2026-02-19T11:37:17.218Z"
+    },
+    {
+      "id": "902eccef-faea-49da-add5-2d3360fd8249",
+      "slug": "shalh-ms-2-trygvnvmtryh-am-mshvlsh-mshpt-hkvsynvsym-dsgcxc",
+      "name": "שאלה מס' 2- טריגונומטריה עם משולש משפט הקוסינוסים",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770734051770-7nf26.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-2-trygvnvmtryh-am-mshvlsh-mshpt-hkvsynvsym-dsgcxc",
+      "categories": [
+        "טריגונומטריה"
+      ],
+      "updated_at": "2026-02-19T11:37:04.390Z"
+    },
+    {
+      "id": "fe57d6e5-ff10-4e64-808a-51c705b6ccd0",
+      "slug": "shalh-ms-1-trygvnvmtryh-am-mshvlsh-6vfgmv",
+      "name": "שאלה מס' 1- טריגונומטריה עם משולש",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">אתם מוזמנים לפתור את השאלה הבאה:</p><p class=\"ql-align-right\"><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770734149036-brqe8j.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-1-trygvnvmtryh-am-mshvlsh-6vfgmv",
+      "categories": [
+        "טריגונומטריה"
+      ],
+      "updated_at": "2026-02-19T11:36:12.991Z"
+    },
+    {
+      "id": "34158887-b60b-437f-b418-af1534730b7b",
+      "slug": "shalh-ms-2-ayntgrl-la-msvym-9ooh99",
+      "name": "שאלה מס' 2- אינטגרל לא מסוים",
+      "name_translations": {},
+      "description": "<p>אתם מוזמנים לפתור את השאלה הבאה:</p><p><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770757391814-7tbbdb.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-2-ayntgrl-la-msvym-9ooh99",
+      "categories": [
+        "פונקציות"
+      ],
+      "updated_at": "2026-02-19T11:35:19.097Z"
+    },
+    {
+      "id": "aade636f-f4ed-41f8-9a00-b294302afa57",
+      "slug": "shalh-ms-1-ayntgrlymbsys-aqguxx",
+      "name": "שאלה מס' 1- אינטגרלים(בסיס)",
+      "name_translations": {},
+      "description": "<p>אתם מוזמנים לפתור את השאלה הבאה:</p><p><a href=\"לפתרון המלא כנסו!\" rel=\"noopener noreferrer\" target=\"_blank\">לפתרון המלא כנסו!</a></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1770757608409-jlcu9.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/shalh-ms-1-ayntgrlymbsys-aqguxx",
+      "categories": [
+        "פונקציות"
+      ],
+      "updated_at": "2026-02-10T21:06:55.626Z"
+    }
+  ]
+}
